@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1c0e1a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Countdown">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<title>Countdown</title>
+<style>
+  :root{
+    --ink:#fff6ec;
+    --soft:rgba(255,246,236,.86);
+    --night:#0b0514;
+    --font:ui-rounded,"SF Pro Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+    --out:cubic-bezier(.22,1,.36,1);
+    --io:cubic-bezier(.65,0,.35,1);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%}
+  html,body{height:100%}
+  body{font-family:var(--font);color:var(--ink);background:var(--night);overflow:hidden;touch-action:manipulation;user-select:none;-webkit-user-select:none}
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+  :focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:10px}
+
+  /* ---------- slideshow of sunsets ---------- */
+  .bg{position:fixed;inset:0;overflow:hidden;background:var(--night)}
+  .slide{position:absolute;inset:0;overflow:hidden}
+  .slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 55%;will-change:transform;animation:var(--kb) 20s ease-out forwards}
+  @keyframes kb0{from{transform:scale(1.04)}to{transform:scale(1.2) translate(-1.5%,-1%)}}
+  @keyframes kb1{from{transform:scale(1.2) translate(1.5%,0)}to{transform:scale(1.05)}}
+  @keyframes kb2{from{transform:scale(1.05) translate(0,1.5%)}to{transform:scale(1.18) translate(1%,-1%)}}
+  .scrim{position:fixed;inset:0;pointer-events:none;background:
+    radial-gradient(ellipse 80% 46% at 50% 50%,rgba(8,4,16,.5),rgba(8,4,16,0) 75%),
+    linear-gradient(180deg,rgba(8,4,16,.5) 0%,rgba(8,4,16,0) 24%,rgba(8,4,16,0) 54%,rgba(8,4,16,.6) 100%),
+    rgba(8,4,16,.2)}
+
+  /* tap ripples */
+  .rp{position:fixed;z-index:6;width:12px;height:12px;margin:-6px;border-radius:50%;border:1.5px solid rgba(255,236,210,.85);pointer-events:none;animation:rp 1.2s var(--out) forwards}
+  .rp.b{animation-delay:.12s;border-color:rgba(255,200,150,.6)}
+  @keyframes rp{from{transform:scale(1);opacity:1}to{transform:scale(22);opacity:0}}
+
+  header{position:fixed;z-index:5;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;
+    padding:calc(env(safe-area-inset-top) + 12px) 12px 0 22px;pointer-events:none}
+  header>*{pointer-events:auto}
+  .name{font-size:1.1rem;font-weight:500;text-shadow:0 1px 12px rgba(0,0,0,.45)}
+  .bell{width:48px;height:48px;display:grid;place-items:center;border-radius:50%;color:var(--ink);transition:background .25s}
+  .bell:hover{background:rgba(255,255,255,.14)}
+  .bell svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 6px rgba(0,0,0,.5))}
+  .bell.on svg path:last-child{fill:currentColor}
+
+  /* ---------- the counter, centred ---------- */
+  main{position:fixed;z-index:4;inset:0;isolation:isolate;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+    padding:calc(env(safe-area-inset-top) + 56px) 24px calc(env(safe-area-inset-bottom) + 40px);pointer-events:none}
+  main>*{pointer-events:none}
+  main>button{pointer-events:auto}
+  main::before{content:"";position:absolute;z-index:-1;width:min(110vw,620px);aspect-ratio:1;left:50%;top:50%;transform:translate(-50%,-52%);
+    background:radial-gradient(circle,rgba(255,176,110,.26),rgba(255,176,110,0) 62%);filter:blur(24px);animation:breathe 7s ease-in-out infinite}
+  @keyframes breathe{50%{transform:translate(-50%,-52%) scale(1.14);opacity:.7}}
+
+  /* sun path: the sun travels from first light to sunset as the days pass */
+  .arc{width:min(70vw,300px);margin-bottom:6px;overflow:visible}
+  .arc svg{width:100%;height:auto;overflow:visible;display:block}
+  .arc .track{fill:none;stroke:rgba(255,246,236,.5);stroke-width:1.6;stroke-linecap:round;stroke-dasharray:2 7}
+  .arc .prog{fill:none;stroke:url(#ag);stroke-width:2.6;stroke-linecap:round;filter:drop-shadow(0 0 6px rgba(255,190,120,.7))}
+  .arc .hz{stroke:rgba(255,246,236,.38);stroke-width:1.2}
+  .arc .halo{fill:rgba(255,200,130,.4);transform-box:fill-box;transform-origin:center;animation:halo 3.2s ease-in-out infinite}
+  .arc .sun{fill:#ffe9c4;filter:drop-shadow(0 0 8px rgba(255,190,110,.95))}
+  @keyframes halo{50%{transform:scale(1.6);opacity:.35}}
+
+  .days{font-size:min(50vw,27dvh,17rem);font-weight:400;letter-spacing:-.05em;line-height:1;filter:drop-shadow(0 4px 26px rgba(0,0,0,.5)) drop-shadow(0 1px 2px rgba(0,0,0,.3))}
+  .unit{font-size:1.3rem;font-weight:600;color:var(--ink);margin-top:2px;letter-spacing:.01em;text-shadow:0 1px 14px rgba(0,0,0,.65)}
+  .hms{margin-top:14px;font-size:1.6rem;font-weight:500;color:var(--ink);filter:drop-shadow(0 1px 10px rgba(0,0,0,.65));display:flex;align-items:center;justify-content:center}
+  .hms .sep{opacity:.55;padding:0 .12em;animation:blink 2s ease-in-out infinite}
+  @keyframes blink{50%{opacity:.15}}
+
+  /* rolling digits */
+  .reel{display:inline-flex;height:1.08em;line-height:1.08;overflow:hidden;vertical-align:top;font-variant-numeric:tabular-nums}
+  .reel .d{display:block;height:1.08em;overflow:hidden;min-width:.58em;text-align:center}
+  .days.reel .d{min-width:.56em}
+  .reel .col{display:block;transition:transform 1.7s var(--out);will-change:transform}
+  .reel .col b{display:block;height:1.08em;font-weight:inherit}
+  .fast .col{transition-duration:.6s}
+  .hms .reel .d{min-width:.6em}
+
+  /* the quiet line: words rise in one by one */
+  .note{position:relative;margin-top:26px;width:min(92vw,370px);min-height:5.6em;display:flex;align-items:center;justify-content:center;
+    font-size:clamp(1.3rem,5.4vw,1.7rem);font-weight:500;line-height:1.28;letter-spacing:-.005em;color:var(--ink);text-wrap:balance;
+    text-shadow:0 2px 18px rgba(0,0,0,.85),0 0 4px rgba(0,0,0,.45);padding:6px 2px;user-select:none}
+  .note::before{content:"";width:38px;height:3px;border-radius:3px;background:linear-gradient(90deg,#ffd28a,#ff8f7a);position:absolute;top:-12px;left:50%;transform:translateX(-50%);box-shadow:0 0 12px rgba(255,170,110,.8)}
+  .note .w{display:inline-block;opacity:0;filter:blur(6px);transform:translateY(8px);animation:wi .9s var(--out) forwards;animation-delay:calc(var(--i)*60ms)}
+  @keyframes wi{to{opacity:1;filter:none;transform:none}}
+  .note.out .w{animation:wo .35s forwards}
+  @keyframes wo{to{opacity:0;filter:blur(4px);transform:translateY(-6px)}}
+  body.sheet-open .note{opacity:0}
+
+  @media(max-height:700px){.arc{width:min(54vw,225px)}.note{margin-top:16px}}
+
+  /* entrance */
+  .a{opacity:0;transform:translateY(14px);transition:opacity 1.2s var(--out),transform 1.2s var(--out);transition-delay:calc(var(--n)*160ms + 250ms)}
+  .ready .a{opacity:1;transform:none}
+
+  /* opt-in sheet */
+  .sheet{position:fixed;z-index:10;left:50%;bottom:calc(env(safe-area-inset-bottom) + 16px);width:min(calc(100vw - 24px),420px);transform:translate(-50%,140%);visibility:hidden;
+    background:#fbf6f0;color:#261d2d;border-radius:22px;padding:22px 22px 14px;box-shadow:0 18px 50px -12px rgba(0,0,0,.6);user-select:text;
+    transition:transform .6s var(--out),visibility 0s .6s}
+  .sheet.open{transform:translate(-50%,0);visibility:visible;transition:transform .6s var(--out),visibility 0s}
+  .sheet h2{font-size:1.2rem;font-weight:600;margin-bottom:4px}
+  .sheet p{font-size:1rem;line-height:1.45;opacity:.78;margin-bottom:16px}
+  .sheet .row{display:flex;gap:8px}
+  .btn{min-height:48px;padding:0 20px;border-radius:14px;font-size:1rem;font-weight:500;transition:transform .15s,background .2s}
+  .btn:active{transform:scale(.97)}
+  .btn.main{flex:1;background:#261d2d;color:#fbf6f0}
+  .btn.quiet{opacity:.75}
+  .btn.quiet:hover{background:rgba(38,29,45,.08)}
+  .sheet :focus-visible{outline-color:#261d2d}
+
+  /* finale */
+  #fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:30}
+  .finale{position:fixed;inset:0;z-index:20;display:grid;place-items:center;text-align:center;padding:24px;background:rgba(11,5,20,.88);color:var(--ink);opacity:0;visibility:hidden;transition:opacity 1.2s,visibility 0s 1.2s}
+  .finale.show{opacity:1;visibility:visible;transition:opacity 1.2s,visibility 0s}
+  .finale h2{font-size:clamp(2.8rem,13vw,5rem);font-weight:300;letter-spacing:-.03em;line-height:1.05}
+  .finale p{margin:14px 0 28px;color:var(--soft);font-size:1.1rem}
+  .finale .btn{background:var(--ink);color:#1d1628;position:relative;z-index:31}
+
+  /* ---------- tooltips ---------- */
+  main>.arc,main>.days,main>.hms{pointer-events:auto}
+  .tip{position:fixed;z-index:40;left:0;top:0;max-width:min(262px,calc(100vw - 20px));padding:11px 15px 12px;border-radius:14px;
+    background:rgba(18,9,28,.95);color:var(--ink);border:1px solid rgba(255,255,255,.16);box-shadow:0 16px 40px -10px rgba(0,0,0,.75);
+    font-size:.88rem;line-height:1.4;font-weight:400;pointer-events:none;user-select:none;text-align:left;
+    opacity:0;visibility:hidden;transform:translateY(var(--ty,6px)) scale(.94);transform-origin:var(--ax,50%) var(--oy,0%);
+    transition:opacity .2s,transform .2s,visibility 0s .2s}
+  .tip.show{opacity:1;visibility:visible;transform:none;transition:opacity .22s,transform .42s cubic-bezier(.34,1.56,.64,1)}
+  .tip b{display:block;font-size:.92rem;font-weight:600;margin-bottom:2px;background:linear-gradient(90deg,#ffd28a,#ff9b85);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tip span{color:var(--soft)}
+  .tip .ar{position:absolute;left:calc(var(--ax,50%) - 5px);width:10px;height:10px;background:rgba(18,9,28,1);border:1px solid rgba(255,255,255,.16);transform:rotate(45deg)}
+  .tip.below .ar{top:-6px;border-right:0;border-bottom:0}
+  .tip.above .ar{bottom:-6px;border-left:0;border-top:0}
+
+  @media(prefers-reduced-motion:reduce){
+    .slide img,main::before,.arc .halo,.hms .sep,.rp{animation:none!important}
+    .tip,.tip.show{transform:none!important}
+    *{transition-duration:.01ms!important;transition-delay:0s!important}
+    .note .w{animation-duration:.01ms!important;animation-delay:0s!important}
+  }
+</style>
+</head>
+<body>
+
+<div class="bg" id="bg"></div>
+<div class="tip" id="tip" role="tooltip"><b id="tipT"></b><span id="tipB"></span><i class="ar"></i></div>
+<div class="scrim"></div>
+
+<header>
+  <p class="name a" style="--n:0" id="who">Asnath</p>
+  <button class="bell" id="bell" data-tip="bell" aria-label="Daily motivation notes">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/></svg>
+  </button>
+</header>
+
+<main>
+  <div class="arc a" style="--n:1" aria-hidden="true" data-tip="arc" data-tip-tap>
+    <svg viewBox="0 0 300 146">
+      <defs><linearGradient id="ag" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffd28a"/><stop offset="1" stop-color="#ff8f7a"/></linearGradient></defs>
+      <line class="hz" x1="6" y1="134" x2="294" y2="134"/>
+      <path class="track" d="M20 134 A130 130 0 0 1 280 134"/>
+      <path class="prog" id="prog" d="M20 134 A130 130 0 0 1 280 134"/>
+      <circle class="halo" id="halo" r="11" cx="20" cy="134"/>
+      <circle class="sun" id="sunDot" r="6" cx="20" cy="134"/>
+    </svg>
+  </div>
+  <div class="days reel a" style="--n:2" id="days" role="text" aria-label="days to go" data-tip="days" data-tip-tap></div>
+  <p class="unit a" style="--n:3">days to go</p>
+  <div class="hms fast a" style="--n:4" id="hms" aria-hidden="true" data-tip="clock" data-tip-tap></div>
+  <button class="note a" style="--n:5" id="note" data-tip="note" aria-label="Show another line"><span id="noteTxt"></span></button>
+</main>
+
+<div class="sheet" id="sheet" role="dialog" aria-labelledby="shT" aria-describedby="shP">
+  <h2 id="shT">Daily motivation?</h2>
+  <p id="shP">A short note every morning and evening.</p>
+  <div class="row"><button class="btn main" id="yes">Turn on</button><button class="btn quiet" id="no">Not now</button></div>
+</div>
+
+<div class="finale" id="finale" role="alertdialog" aria-labelledby="fT">
+  <div><h2 id="fT">You did it.</h2><p id="fP"></p><button class="btn" id="fClose">Keep celebrating</button></div>
+</div>
+<canvas id="fx"></canvas>
+
+<script src="extras.js"></script>
+<script>
+/* ============ CONFIG: edit these (the page itself has no settings) ============ */
+const DEFAULTS = { name: "Asnath", start: "2026-11-09", months: 6 };
+/* After changing these, also edit CONFIG in build.js and run: node build.js
+   Optional link overrides: ?name=..&start=YYYY-MM-DD&months=6
+   Testing only: ?now=YYYY-MM-DD · ?preview=finale · ?sheet · ?nosheet · ?slide=N */
+/* =============================================================================== */
+
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2,"0");
+const reduce = matchMedia("(prefers-reduced-motion:reduce)").matches;
+const X = window.Extras || { QUOTES:["You've got this."] };
+const q = new URLSearchParams(location.search);
+const cfg = {...DEFAULTS};
+if(q.get("name")) cfg.name = q.get("name").slice(0,30);
+if(/^\d{4}-\d{2}-\d{2}$/.test(q.get("start")||"")) cfg.start = q.get("start");
+if(+q.get("months")>0) cfg.months = Math.min(36,+q.get("months"));
+const fake = /^\d{4}-\d{2}-\d{2}$/.test(q.get("now")||"") ? new Date(q.get("now")+"T00:00:00").getTime() : null;
+const now = () => fake ?? Date.now();
+const [y,mo,d0] = cfg.start.split("-").map(Number);
+const startD = new Date(y,mo-1,d0,0,0,0), endD = new Date(y,mo-1+cfg.months,d0,0,0,0);
+const total = endD-startD, DAY = 864e5;
+const store = { get(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }, set(k,v){ try{ localStorage.setItem(k,v); }catch(e){} } };
+
+$("who").textContent = cfg.name;
+document.title = cfg.name + "'s Countdown";
+
+/* ---------- rolling digit reels ---------- */
+function mkReel(el,len){
+  el.innerHTML=""; el._d=[]; el._len=len;
+  for(let i=0;i<len;i++){
+    const d=document.createElement("span"); d.className="d";
+    const col=document.createElement("span"); col.className="col";
+    col.innerHTML=[0,1,2,3,4,5,6,7,8,9,0].map(n=>`<b>${n}</b>`).join("");
+    d.appendChild(col); el.appendChild(d);
+    const c={col,v:0,idx:0,set:false}; el._d.push(c);
+    col.addEventListener("transitionend",()=>{ if(c.idx===10){ col.style.transition="none"; col.style.transform="translateY(0)"; c.idx=0; void col.offsetHeight; col.style.transition=""; } });
+  }
+}
+function setReel(el,str,stagger=0){
+  if(el._len!==str.length) mkReel(el,str.length);
+  el._d.forEach((c,i)=>{
+    const v=+str[i]; if(c.v===v && c.set) return;
+    const idx=(c.v===9 && v===0 && c.set) ? 10 : v;
+    c.v=v; c.idx=idx; c.set=true;
+    c.col.style.transitionDelay = stagger ? (i*stagger)+"ms" : "";
+    c.col.style.transform=`translateY(${-idx*1.08}em)`;
+  });
+}
+$("hms").innerHTML=`<span class="reel" id="rH"></span><span class="sep">:</span><span class="reel" id="rM"></span><span class="sep">:</span><span class="reel" id="rS"></span>`;
+["rH","rM","rS"].forEach(id=>{ mkReel($(id),2); setReel($(id),"00"); });
+const totalDays=Math.round(total/DAY);
+mkReel($("days"),String(totalDays).length);
+
+/* ---------- sun path ---------- */
+const prog=$("prog"), L=prog.getTotalLength(), sunDot=$("sunDot"), halo=$("halo");
+prog.style.strokeDasharray=L; prog.style.strokeDashoffset=L;
+function placeSun(f){
+  const p=prog.getPointAtLength(L*f);
+  sunDot.setAttribute("cx",p.x); sunDot.setAttribute("cy",p.y); halo.setAttribute("cx",p.x); halo.setAttribute("cy",p.y);
+  prog.style.strokeDashoffset=L*(1-f);
+}
+let arcT=null;
+function animateSun(to){
+  if(reduce){ placeSun(to); arcT=false; return; }
+  const t0=performance.now(), dur=2600;
+  (function f(t){ const p=Math.min(1,(t-t0)/dur), e=1-Math.pow(1-p,3); placeSun(to*e); if(p<1) requestAnimationFrame(f); else arcT=false; })(t0);
+  arcT=true;
+}
+
+/* ---------- clock ---------- */
+let ready=false, bigFirst=true, finaleShown=false, lastFrac=0, curDays=0;
+function tick(){
+  const n=now(), rem=Math.max(0,endD-n), frac=Math.min(1,Math.max(0,(n-startD)/total)); lastFrac=frac;
+  const dd=Math.floor(rem/DAY), h=Math.floor(rem/36e5)%24, m=Math.floor(rem/6e4)%60, s=Math.floor(rem/1e3)%60;
+  curDays=dd;
+  if(ready){ setReel($("days"),String(dd),bigFirst?170:0); bigFirst=false; }
+  setReel($("rH"),pad(h)); setReel($("rM"),pad(m)); setReel($("rS"),pad(s));
+  if(arcT===false) placeSun(frac);
+  if(rem===0 && !finaleShown) finale();
+}
+
+/* ---------- the quiet line: words rise in, new with every picture ---------- */
+const Q=X.QUOTES; let qi=-1;
+const lastQ=parseInt(store.get("cd-lastq"),10); if(Number.isInteger(lastQ)) qi=lastQ;
+const fillQ=t=>(window.Extras&&Extras.fill)?Extras.fill(t,{name:cfg.name,d:curDays}):t;
+function renderQuote(t){
+  t=fillQ(t);
+  $("noteTxt").innerHTML=t.split(" ").map((w,i)=>`<span class="w" style="--i:${i}">${w}</span>`).join(" ");
+}
+let qTimer;
+function nextQuote(first){
+  let n; do{ n=Math.floor(Math.random()*Q.length); }while(Q.length>1 && n===qi);
+  qi=n; store.set("cd-lastq",n);
+  const el=$("note");
+  if(first||reduce){ renderQuote(Q[n]); return; }
+  el.classList.add("out"); clearTimeout(qTimer);
+  qTimer=setTimeout(()=>{ renderQuote(Q[n]); el.classList.remove("out"); },380);
+}
+$("note").onclick=e=>{ e.stopPropagation(); nextQuote(false); };
+
+/* ---------- the sunset slideshow ---------- */
+const SLIDES=[
+  {f:"img/s1.jpg",p:"35% 50%"}, {f:"img/s2.jpg",p:"46% 50%"}, {f:"img/s3.jpg",p:"50% 50%"}, {f:"img/s4.jpg",p:"55% 50%"},
+  {f:"img/s5.jpg",p:"50% 50%"}, {f:"img/s6.jpg",p:"48% 50%"}, {f:"img/s7.jpg",p:"50% 50%"}, {f:"img/s8.jpg",p:"50% 50%"}
+];
+const bg=$("bg"); let si=q.has("slide")?(+q.get("slide")||0)%SLIDES.length:Math.floor(Math.random()*SLIDES.length), kb=0, busy=false;
+function mkSlide(i){
+  const s=SLIDES[i], el=document.createElement("div"), img=new Image();
+  el.className="slide"; img.alt=""; img.decoding="async"; img.style.objectPosition=s.p; img.style.setProperty("--kb","kb"+(kb++%3));
+  img.src=s.f; el.appendChild(img); return {el,img};
+}
+function pruneSlides(){ while(bg.children.length>2) bg.removeChild(bg.firstChild); }
+async function showSlide(i,x,yy){
+  if(busy) return; busy=true;
+  const {el,img}=mkSlide(i);
+  try{ await img.decode(); }catch(e){}
+  bg.appendChild(el);
+  if(bg.children.length===1 || reduce){
+    el.animate([{opacity:0},{opacity:1}],{duration:reduce?600:1400,easing:"ease",fill:"both"}).finished.then(()=>{ pruneSlides(); busy=false; });
+  } else {
+    const r=Math.hypot(Math.max(x,innerWidth-x),Math.max(yy,innerHeight-yy))+4;
+    el.animate([{clipPath:`circle(0px at ${x}px ${yy}px)`},{clipPath:`circle(${r}px at ${x}px ${yy}px)`}],{duration:1500,easing:"cubic-bezier(.65,0,.35,1)",fill:"both"}).finished.then(()=>{ el.style.clipPath="none"; pruneSlides(); busy=false; });
+  }
+}
+function nextSlide(x,yy){
+  si=(si+1)%SLIDES.length;
+  showSlide(si,x??innerWidth/2,yy??innerHeight*.62);
+  nextQuote(false);
+}
+let auto;
+function startAuto(){ clearInterval(auto); auto=setInterval(()=>{ if(!document.hidden && !sheet.classList.contains("open") && !finaleShown) nextSlide(); },9000); }
+// tap the picture: light ripples out from your finger and the next sunset opens from that spot
+document.addEventListener("pointerdown",e=>{
+  if(!ready || e.target.closest("button,.sheet,.finale")) return;
+  if(e.pointerType!=="mouse" && e.target.closest("[data-tip-tap]")) return;   // touch: tapping these shows their tip instead
+  for(const c of ["","b"]){ const r=document.createElement("div"); r.className="rp "+c; r.style.left=e.clientX+"px"; r.style.top=e.clientY+"px"; document.body.appendChild(r); setTimeout(()=>r.remove(),1500); }
+  nextSlide(e.clientX,e.clientY); startAuto();
+  try{ navigator.vibrate&&navigator.vibrate(8); }catch(_){}
+});
+setTimeout(()=>SLIDES.forEach((s,i)=>{ if(i!==si){ const im=new Image(); im.src=s.f; } }),2500);
+
+/* ---------- tooltips ---------- */
+const tip=$("tip"); let tipEl=null, tipTimer;
+const endLabel=endD.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"});
+const TIPS={
+  bell:()=> store.get("cd-notif")==="yes" ? ["Daily notes are on","A line at 6 AM and 6:30 PM. Tap for details."] : ["Daily motivation","Get a little note at 6 AM and 6:30 PM."],
+  arc:()=>["Your sun",(Math.round(lastFrac*1000)/10)+"% of the way to sunset."],
+  days:()=>["Until sunset",endLabel],
+  clock:()=>["Live","Hours, minutes and seconds. All of them ticking."],
+  note:()=>["Need another?","Tap for a new line. Tap the sky for the next sunset."]
+};
+function showTip(el,ms,custom){
+  if(document.body.classList.contains("sheet-open")) return;
+  clearTimeout(tipTimer); tipEl=el;
+  const [t,b]=custom||TIPS[el.dataset.tip]();
+  $("tipT").textContent=t; $("tipB").textContent=b;
+  tip.classList.remove("show","above","below"); tip.style.left="0px"; tip.style.top="0px";
+  const r=el.getBoundingClientRect(), tw=tip.offsetWidth, th=tip.offsetHeight, below=(r.top+r.height/2)<innerHeight*.42 || r.top-th-14<8;
+  const cx=r.left+r.width/2, x=Math.max(10,Math.min(innerWidth-tw-10,cx-tw/2)), yy=below?r.bottom+12:r.top-th-12;
+  tip.style.left=x+"px"; tip.style.top=yy+"px";
+  tip.style.setProperty("--ax",Math.max(16,Math.min(tw-16,cx-x))+"px");
+  tip.style.setProperty("--ty",below?"-6px":"6px"); tip.style.setProperty("--oy",below?"0%":"100%");
+  tip.classList.add(below?"below":"above");
+  requestAnimationFrame(()=>tip.classList.add("show"));
+  el.setAttribute("aria-describedby","tip");
+  if(ms) tipTimer=setTimeout(hideTip,ms);
+}
+function hideTip(){ clearTimeout(tipTimer); tip.classList.remove("show"); if(tipEl){ tipEl.removeAttribute("aria-describedby"); tipEl=null; } }
+document.addEventListener("pointerover",e=>{ if(e.pointerType!=="mouse") return; const t=e.target.closest("[data-tip]"); if(t){ if(t!==tipEl) showTip(t); } else if(tipEl) hideTip(); });
+document.addEventListener("focusin",e=>{ const t=e.target.closest("[data-tip]"); if(t && e.target.matches(":focus-visible")) showTip(t); });
+document.addEventListener("focusout",hideTip);
+document.addEventListener("pointerdown",e=>{
+  const t=e.target.closest("[data-tip-tap]");
+  if(t && e.pointerType!=="mouse"){ tipEl===t ? hideTip() : showTip(t,3400); }
+  else if(tipEl && e.pointerType!=="mouse") hideTip();
+},true);
+addEventListener("keydown",e=>{ if(e.key==="Escape") hideTip(); });
+addEventListener("scroll",hideTip,{passive:true}); addEventListener("resize",hideTip);
+
+/* ---------- ask once about daily notes ---------- */
+const sheet=$("sheet"); let sheetT;
+function openSheet(){ hideTip(); clearTimeout(sheetT); sheet.classList.add("open"); document.body.classList.add("sheet-open"); setTimeout(()=>$("yes").focus({preventScroll:true}),350); }
+function closeSheet(){ sheet.classList.remove("open"); document.body.classList.remove("sheet-open"); $("bell").focus({preventScroll:true}); }
+function markOn(){ $("bell").classList.add("on"); $("bell").setAttribute("aria-label","Daily notes are on"); }
+$("no").onclick=()=>{
+  const first=!store.get("cd-notif"); if(first) store.set("cd-notif","no"); closeSheet();
+  if(first && !store.get("cd-tip-bell")){ store.set("cd-tip-bell","1"); setTimeout(()=>showTip($("bell"),4600,["Change your mind?","Daily notes live here whenever you want them."]),900); }
+};
+$("yes").onclick=()=>{
+  if($("yes").dataset.done){ closeSheet(); return; }
+  const blob=new Blob([X.buildICS(cfg)],{type:"text/calendar;charset=utf-8"}), a=document.createElement("a");
+  a.href=URL.createObjectURL(blob); a.download=cfg.name.toLowerCase()+"-daily-notes.ics"; document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },4000);
+  store.set("cd-notif","yes"); markOn();
+  $("shT").textContent="One last step"; $("shP").textContent="Tap Add All in Calendar and you're set.";
+  $("yes").textContent="Done"; $("yes").dataset.done=1; $("no").style.display="none";
+};
+$("bell").onclick=()=>{
+  if(store.get("cd-notif")==="yes" && !$("yes").dataset.done){ $("shT").textContent="Daily motivation is on"; $("shP").textContent="You'll get a note every morning and evening."; $("yes").textContent="Nice"; $("yes").dataset.done=1; $("no").style.display="none"; }
+  sheet.classList.contains("open") ? closeSheet() : openSheet();
+};
+addEventListener("keydown",e=>{ if(e.key==="Escape" && sheet.classList.contains("open")) closeSheet(); });
+if(!window.Extras) $("bell").style.display="none";
+
+/* ---------- fireworks (finale only) ---------- */
+const cv=$("fx"), ctx=cv.getContext("2d");
+let W,H,running=false,finaleTimer; const rockets=[], parts=[], conf=[];
+function resize(){ const D=Math.min(2,devicePixelRatio||1); W=innerWidth;H=innerHeight; cv.width=W*D;cv.height=H*D; ctx.setTransform(D,0,0,D,0,0); }
+addEventListener("resize",resize); resize();
+const PAL=[[16,95,64],[32,100,66],[44,90,76],[350,78,72],[270,60,78],[200,70,72]];
+const pick=()=>PAL[Math.floor(Math.random()*PAL.length)];
+function kick(){ if(!running){ running=true; requestAnimationFrame(frame); } }
+function launch(tx,ty){ rockets.push({x:tx+(Math.random()-.5)*120,y:H,tx,ty,vy:-(11+Math.random()*3),c:pick()}); kick(); }
+function explode(x,y,c){
+  c=c||pick(); const n=innerWidth<600?64:90;
+  for(let i=0;i<n;i++){ const a=i/n*Math.PI*2, r=Math.random()<.5?5.4:Math.random()*7;
+    parts.push({x,y,vx:Math.cos(a)*r,vy:Math.sin(a)*r,life:1,decay:.008+Math.random()*.01,c,size:1.3+Math.random()*1.3}); }
+}
+function confetti(){ for(let i=0;i<40;i++){ const c=pick(); conf.push({x:Math.random()*W,y:-10,vx:Math.random()*2-1,vy:2+Math.random()*3,r:Math.random()*6,s:5+Math.random()*6,col:`hsl(${c[0]} ${c[1]}% ${c[2]}%)`}); } kick(); }
+function frame(){
+  ctx.globalCompositeOperation="destination-out"; ctx.fillStyle="rgba(0,0,0,.2)"; ctx.fillRect(0,0,W,H);
+  ctx.globalCompositeOperation="lighter";
+  for(let i=rockets.length-1;i>=0;i--){
+    const r=rockets[i]; r.y+=r.vy; r.vy*=.985; r.x+=(r.tx-r.x)*.03;
+    ctx.fillStyle=`hsl(${r.c[0]} ${r.c[1]}% 80%)`; ctx.beginPath(); ctx.arc(r.x,r.y,2,0,7); ctx.fill();
+    if(r.y<=r.ty||r.vy>-1.2){ explode(r.x,r.y,r.c); rockets.splice(i,1); }
+  }
+  for(let i=parts.length-1;i>=0;i--){
+    const p=parts[i]; p.x+=p.vx; p.y+=p.vy; p.vx*=.975; p.vy=p.vy*.975+.06; p.life-=p.decay;
+    if(p.life<=0){ parts.splice(i,1); continue; }
+    ctx.fillStyle=`hsla(${p.c[0]} ${p.c[1]}% ${p.c[2]}% / ${p.life})`; ctx.beginPath(); ctx.arc(p.x,p.y,p.size*p.life+.3,0,7); ctx.fill();
+  }
+  ctx.globalCompositeOperation="source-over";
+  for(let i=conf.length-1;i>=0;i--){
+    const c=conf[i]; c.x+=c.vx+Math.sin(c.y/30); c.y+=c.vy; c.r+=.15;
+    if(c.y>H+20){ conf.splice(i,1); continue; }
+    ctx.save(); ctx.translate(c.x,c.y); ctx.rotate(c.r); ctx.fillStyle=c.col; ctx.fillRect(-c.s/2,-c.s/4,c.s,c.s/2); ctx.restore();
+  }
+  if(rockets.length||parts.length||conf.length||finaleTimer) requestAnimationFrame(frame);
+  else { running=false; ctx.clearRect(0,0,W,H); }
+}
+function finale(){
+  finaleShown=true; closeSheet();
+  $("fP").textContent=`${cfg.name}, the sun has set on this chapter. Go celebrate.`;
+  $("finale").classList.add("show");
+  let n=0; clearInterval(finaleTimer);
+  finaleTimer=setInterval(()=>{ launch(Math.random()*innerWidth,innerHeight*(.1+Math.random()*.45)); if(n++%3===0) confetti(); },380);
+  for(let i=0;i<6;i++) setTimeout(()=>launch(innerWidth*(i+1)/7,innerHeight*.32),i*160);
+}
+$("fClose").onclick=()=>{ $("finale").classList.remove("show"); clearInterval(finaleTimer); finaleTimer=null; };
+
+/* ---------- start ---------- */
+showSlide(si,innerWidth/2,innerHeight/2);
+tick(); nextQuote(true); setInterval(tick,1000); startAuto();
+requestAnimationFrame(()=>requestAnimationFrame(()=>{
+  document.body.classList.add("ready"); ready=true; tick();
+  setTimeout(()=>animateSun(lastFrac),500);
+}));
+if(store.get("cd-notif")==="yes") markOn();
+if(window.Extras && !q.has("nosheet") && (q.has("sheet") || !store.get("cd-notif"))) sheetT=setTimeout(openSheet,3600);
+if(q.get("preview")==="finale") setTimeout(finale,1800);
+// one-time hint about tapping the sky (only when the notes sheet isn't in the way)
+if(!store.get("cd-tip-tap")) setTimeout(()=>{ if(!sheet.classList.contains("open") && !finaleShown){ store.set("cd-tip-tap","1"); showTip($("note"),4600,["Tap anywhere","to open the next sunset."]); } },7500);
+</script>
+</body>
+</html>

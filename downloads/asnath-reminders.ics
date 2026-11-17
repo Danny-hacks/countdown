@@ -1,0 +1,5196 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sunset Countdown//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Asnath's Sunset Countdown
+BEGIN:VEVENT
+UID:cd-20261118-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261118T060000
+DTEND:20261118T061500
+SUMMARY:It's a great day to be a legend. 171 days left\, Asnath.
+DESCRIPTION:It's a great day to be a legend. 171 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261118-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261118T183000
+DTEND:20261118T184500
+SUMMARY:The day is done and so is the hard part. 171 days left\, Asnat
+ h.
+DESCRIPTION:The day is done and so is the hard part. 171 days left\, A
+ snath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261119-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261119T060000
+DTEND:20261119T061500
+SUMMARY:Fuel up and glow up. 170 days left on this adventure.
+DESCRIPTION:Fuel up and glow up. 170 days left on this adventure.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261119-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261119T183000
+DTEND:20261119T184500
+SUMMARY:Sunset check: still amazing. 170 days to go.
+DESCRIPTION:Sunset check: still amazing. 170 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261120-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261120T060000
+DTEND:20261120T061500
+SUMMARY:169 days to go. Smile\, send the emails\, steal the show.
+DESCRIPTION:169 days to go. Smile\, send the emails\, steal the show.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261120-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261120T183000
+DTEND:20261120T184500
+SUMMARY:You've got 169 days left and a whole evening to enjoy. Go.
+DESCRIPTION:You've got 169 days left and a whole evening to enjoy. Go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261121-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261121T060000
+DTEND:20261121T061500
+SUMMARY:Good morning\, Asnath! The hours are long but the sunsets are 
+ longer. 168 days left.
+DESCRIPTION:Good morning\, Asnath! The hours are long but the sunsets 
+ are longer. 168 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261121-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261121T183000
+DTEND:20261121T184500
+SUMMARY:Hey Asnath\, proud of you. 168 days to go. Sleep well tonight.
+DESCRIPTION:Hey Asnath\, proud of you. 168 days to go. Sleep well toni
+ ght.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261122-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261122T060000
+DTEND:20261122T061500
+SUMMARY:New day\, new chance to impress someone. 167 days to go.
+DESCRIPTION:New day\, new chance to impress someone. 167 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261122-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261122T183000
+DTEND:20261122T184500
+SUMMARY:167 days left. The best interns rest well. That's you.
+DESCRIPTION:167 days left. The best interns rest well. That's you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261123-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261123T060000
+DTEND:20261123T061500
+SUMMARY:Rise\, sparkle\, intern. 166 days left.
+DESCRIPTION:Rise\, sparkle\, intern. 166 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261123-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261123T183000
+DTEND:20261123T184500
+SUMMARY:Wrap it up\, wind down\, glow on. 166 days to go.
+DESCRIPTION:Wrap it up\, wind down\, glow on. 166 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261124-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261124T060000
+DTEND:20261124T061500
+SUMMARY:Your coffee called. It says you've got this. 165 days to go.
+DESCRIPTION:Your coffee called. It says you've got this. 165 days to g
+ o.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261124-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261124T183000
+DTEND:20261124T184500
+SUMMARY:Another sunset\, another small victory. 165 days left.
+DESCRIPTION:Another sunset\, another small victory. 165 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261125-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261125T060000
+DTEND:20261125T061500
+SUMMARY:Eyes on the prize\, Asnath. 164 days left until sunset.
+DESCRIPTION:Eyes on the prize\, Asnath. 164 days left until sunset.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261125-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261125T183000
+DTEND:20261125T184500
+SUMMARY:164 days to go. Dinner\, music\, zero emails. Doctor's orders.
+DESCRIPTION:164 days to go. Dinner\, music\, zero emails. Doctor's ord
+ ers.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261126-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261126T060000
+DTEND:20261126T061500
+SUMMARY:163 days to go. Be the energy you want in the meeting.
+DESCRIPTION:163 days to go. Be the energy you want in the meeting.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261126-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261126T183000
+DTEND:20261126T184500
+SUMMARY:You turned a long day into a good one\, Asnath. 163 days left.
+DESCRIPTION:You turned a long day into a good one\, Asnath. 163 days l
+ eft.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261127-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261127T060000
+DTEND:20261127T061500
+SUMMARY:Today is a good day to be unstoppable. 162 days left.
+DESCRIPTION:Today is a good day to be unstoppable. 162 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261127-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261127T183000
+DTEND:20261127T184500
+SUMMARY:Day complete. Achievement unlocked. 162 days to go.
+DESCRIPTION:Day complete. Achievement unlocked. 162 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261128-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261128T060000
+DTEND:20261128T061500
+SUMMARY:Good morning! 161 days left to turn 'intern' into 'irreplaceab
+ le'.
+DESCRIPTION:Good morning! 161 days left to turn 'intern' into 'irrepla
+ ceable'.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261128-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261128T183000
+DTEND:20261128T184500
+SUMMARY:Tonight's agenda: nothing. You've earned it. 161 days left.
+DESCRIPTION:Tonight's agenda: nothing. You've earned it. 161 days left
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261129-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261129T060000
+DTEND:20261129T061500
+SUMMARY:The early intern gets the good parking spot. 160 days to go.
+DESCRIPTION:The early intern gets the good parking spot. 160 days to g
+ o.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261129-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261129T183000
+DTEND:20261129T184500
+SUMMARY:160 days to go. Tomorrow's a new chance to be great. Tonight\,
+  rest.
+DESCRIPTION:160 days to go. Tomorrow's a new chance to be great. Tonig
+ ht\, rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261130-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261130T060000
+DTEND:20261130T061500
+SUMMARY:Hey Asnath\, you're doing better than you think. 159 days left
+ .
+DESCRIPTION:Hey Asnath\, you're doing better than you think. 159 days 
+ left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261130-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261130T183000
+DTEND:20261130T184500
+SUMMARY:Stars are coming out\, Asnath. So are your best days. 159 days
+  left.
+DESCRIPTION:Stars are coming out\, Asnath. So are your best days. 159 
+ days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261201-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261201T060000
+DTEND:20261201T061500
+SUMMARY:158 days to go. Make Future You proud before lunch.
+DESCRIPTION:158 days to go. Make Future You proud before lunch.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261201-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261201T183000
+DTEND:20261201T184500
+SUMMARY:158 days left. One more sunset down. You make it look easy.
+DESCRIPTION:158 days left. One more sunset down. You make it look easy
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261202-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261202T060000
+DTEND:20261202T061500
+SUMMARY:Another sunrise\, another step closer to greatness. 157 days l
+ eft.
+DESCRIPTION:Another sunrise\, another step closer to greatness. 157 da
+ ys left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261202-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261202T183000
+DTEND:20261202T184500
+SUMMARY:One day down\, 157 days to go. Sucks to be you. Kidding. Go re
+ st.
+DESCRIPTION:One day down\, 157 days to go. Sucks to be you. Kidding. G
+ o rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261203-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261203T060000
+DTEND:20261203T061500
+SUMMARY:Take a breath\, take a sip\, take on the day. 156 days to go.
+DESCRIPTION:Take a breath\, take a sip\, take on the day. 156 days to 
+ go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261203-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261203T183000
+DTEND:20261203T184500
+SUMMARY:156 days left\, Asnath. You survived another one. Be smug abou
+ t it.
+DESCRIPTION:156 days left\, Asnath. You survived another one. Be smug 
+ about it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261204-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261204T060000
+DTEND:20261204T061500
+SUMMARY:155 days left. Ask questions\, take notes\, take over the worl
+ d.
+DESCRIPTION:155 days left. Ask questions\, take notes\, take over the 
+ world.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261204-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261204T183000
+DTEND:20261204T184500
+SUMMARY:Evening! 155 days to go. Still not over. But look how far you'
+ ve come.
+DESCRIPTION:Evening! 155 days to go. Still not over. But look how far 
+ you've come.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261205-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261205T060000
+DTEND:20261205T061500
+SUMMARY:Good morning\, Asnath! Believe in yourself. The coffee already
+  does. 154 days to go.
+DESCRIPTION:Good morning\, Asnath! Believe in yourself. The coffee alr
+ eady does. 154 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261205-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261205T183000
+DTEND:20261205T184500
+SUMMARY:154 days left. Tonight's plan: horizontal. Tomorrow: iconic.
+DESCRIPTION:154 days left. Tonight's plan: horizontal. Tomorrow: iconi
+ c.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261206-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261206T060000
+DTEND:20261206T061500
+SUMMARY:You're one day closer to the finish line. 153 days left. Go ge
+ t it.
+DESCRIPTION:You're one day closer to the finish line. 153 days left. G
+ o get it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261206-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261206T183000
+DTEND:20261206T184500
+SUMMARY:You made it through today. 153 days to go. The couch is proud 
+ of you.
+DESCRIPTION:You made it through today. 153 days to go. The couch is pr
+ oud of you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261207-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261207T060000
+DTEND:20261207T061500
+SUMMARY:Chin up\, Asnath. The view gets better at sunset. 152 days to 
+ go.
+DESCRIPTION:Chin up\, Asnath. The view gets better at sunset. 152 days
+  to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261207-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261207T183000
+DTEND:20261207T184500
+SUMMARY:152 days left. If today was a lot\, tomorrow's a fresh start.
+DESCRIPTION:152 days left. If today was a lot\, tomorrow's a fresh sta
+ rt.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261208-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261208T060000
+DTEND:20261208T061500
+SUMMARY:151 days left. Show up\, shine on.
+DESCRIPTION:151 days left. Show up\, shine on.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261208-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261208T183000
+DTEND:20261208T184500
+SUMMARY:Sunset! 151 days to go. Sucks to be you\, but wow\, you look g
+ ood doing it.
+DESCRIPTION:Sunset! 151 days to go. Sucks to be you\, but wow\, you lo
+ ok good doing it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261209-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261209T060000
+DTEND:20261209T061500
+SUMMARY:Good morning. 150 days left. Sucks to be you. Go be great anyw
+ ay.
+DESCRIPTION:Good morning. 150 days left. Sucks to be you. Go be great 
+ anyway.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261209-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261209T183000
+DTEND:20261209T184500
+SUMMARY:150 days left\, Asnath. Eat dinner. Ignore Slack. Sleep.
+DESCRIPTION:150 days left\, Asnath. Eat dinner. Ignore Slack. Sleep.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261210-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261210T060000
+DTEND:20261210T061500
+SUMMARY:Rise and grind\, Asnath. 149 days to go. Yes\, still that many
+ .
+DESCRIPTION:Rise and grind\, Asnath. 149 days to go. Yes\, still that 
+ many.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261210-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261210T183000
+DTEND:20261210T184500
+SUMMARY:One more day in the bank. 149 days to go. You're doing so well
+ .
+DESCRIPTION:One more day in the bank. 149 days to go. You're doing so 
+ well.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261211-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261211T060000
+DTEND:20261211T061500
+SUMMARY:148 days left. The alarm is cruel but you are cruel-proof.
+DESCRIPTION:148 days left. The alarm is cruel but you are cruel-proof.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261211-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261211T183000
+DTEND:20261211T184500
+SUMMARY:Day done! 148 days to go. You earned that couch\, Asnath.
+DESCRIPTION:Day done! 148 days to go. You earned that couch\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261212-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261212T060000
+DTEND:20261212T061500
+SUMMARY:Morning! 147 days to go. Nobody said building a career would b
+ e glamorous.
+DESCRIPTION:Morning! 147 days to go. Nobody said building a career wou
+ ld be glamorous.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261212-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261212T183000
+DTEND:20261212T184500
+SUMMARY:The sun's setting on today and you absolutely shone. 147 days 
+ left.
+DESCRIPTION:The sun's setting on today and you absolutely shone. 147 d
+ ays left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261213-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261213T060000
+DTEND:20261213T061500
+SUMMARY:146 days left. Sucks to be you\, but also\, you've totally got
+  this.
+DESCRIPTION:146 days left. Sucks to be you\, but also\, you've totally
+  got this.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261213-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261213T183000
+DTEND:20261213T184500
+SUMMARY:Log off\, breathe out. 146 days to go\, zero doubts.
+DESCRIPTION:Log off\, breathe out. 146 days to go\, zero doubts.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261214-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261214T060000
+DTEND:20261214T061500
+SUMMARY:Good morning\, Asnath. 145 days to go. The coffee is on your s
+ ide.
+DESCRIPTION:Good morning\, Asnath. 145 days to go. The coffee is on yo
+ ur side.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261214-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261214T183000
+DTEND:20261214T184500
+SUMMARY:145 days left. Be proud of today. Then eat something delicious
+ .
+DESCRIPTION:145 days left. Be proud of today. Then eat something delic
+ ious.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261215-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261215T060000
+DTEND:20261215T061500
+SUMMARY:144 days left. Put on your brave pants and your good shoes.
+DESCRIPTION:144 days left. Put on your brave pants and your good shoes
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261215-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261215T183000
+DTEND:20261215T184500
+SUMMARY:Another day survived\, and thrived. 144 days to go\, Asnath.
+DESCRIPTION:Another day survived\, and thrived. 144 days to go\, Asnat
+ h.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261216-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261216T060000
+DTEND:20261216T061500
+SUMMARY:Today's agenda: survive\, thrive\, snack. 143 days left\, Asna
+ th.
+DESCRIPTION:Today's agenda: survive\, thrive\, snack. 143 days left\, 
+ Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261216-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261216T183000
+DTEND:20261216T184500
+SUMMARY:Close the laptop\, open the snacks. 143 days left.
+DESCRIPTION:Close the laptop\, open the snacks. 143 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261217-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261217T060000
+DTEND:20261217T061500
+SUMMARY:142 days to go. If it were easy\, it wouldn't be this long.
+DESCRIPTION:142 days to go. If it were easy\, it wouldn't be this long
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261217-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261217T183000
+DTEND:20261217T184500
+SUMMARY:You did good today\, Asnath. 142 days to go. Rest up.
+DESCRIPTION:You did good today\, Asnath. 142 days to go. Rest up.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261218-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261218T060000
+DTEND:20261218T061500
+SUMMARY:Rise and shine\, Asnath! 141 days to go. Be the intern they ne
+ ver forget.
+DESCRIPTION:Rise and shine\, Asnath! 141 days to go. Be the intern the
+ y never forget.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261218-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261218T183000
+DTEND:20261218T184500
+SUMMARY:Sunset time. 141 days left. Today's wins go in the trophy cabi
+ net.
+DESCRIPTION:Sunset time. 141 days left. Today's wins go in the trophy 
+ cabinet.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261219-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261219T060000
+DTEND:20261219T061500
+SUMMARY:140 days left. Coffee first\, world domination second.
+DESCRIPTION:140 days left. Coffee first\, world domination second.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261219-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261219T183000
+DTEND:20261219T184500
+SUMMARY:140 days to go. The inbox can wait. You've done enough today.
+DESCRIPTION:140 days to go. The inbox can wait. You've done enough tod
+ ay.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261220-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261220T060000
+DTEND:20261220T061500
+SUMMARY:Good morning! Only 139 sunrises left in this internship. Make 
+ this one count.
+DESCRIPTION:Good morning! Only 139 sunrises left in this internship. M
+ ake this one count.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261220-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261220T183000
+DTEND:20261220T184500
+SUMMARY:Good evening\, legend. 139 days left. Tomorrow needs you well 
+ rested.
+DESCRIPTION:Good evening\, legend. 139 days left. Tomorrow needs you w
+ ell rested.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261221-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261221T060000
+DTEND:20261221T061500
+SUMMARY:Another day\, another chance to be the best thing that happene
+ d to that office. 138 to go.
+DESCRIPTION:Another day\, another chance to be the best thing that hap
+ pened to that office. 138 to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261221-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261221T183000
+DTEND:20261221T184500
+SUMMARY:Another page turned. 138 days to go. Hot take: you're doing gr
+ eat.
+DESCRIPTION:Another page turned. 138 days to go. Hot take: you're doin
+ g great.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261222-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261222T060000
+DTEND:20261222T061500
+SUMMARY:Wake up\, Asnath. The sun is up and so is your potential. 137 
+ days left.
+DESCRIPTION:Wake up\, Asnath. The sun is up and so is your potential. 
+ 137 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261222-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261222T183000
+DTEND:20261222T184500
+SUMMARY:Kick off the work shoes. 137 days left\, Asnath.
+DESCRIPTION:Kick off the work shoes. 137 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261223-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261223T060000
+DTEND:20261223T061500
+SUMMARY:136 days to go. Today's mission: be brilliant\, be kind\, be o
+ n time-ish.
+DESCRIPTION:136 days to go. Today's mission: be brilliant\, be kind\, 
+ be on time-ish.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261223-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261223T183000
+DTEND:20261223T184500
+SUMMARY:136 days left. Whatever happened today\, you showed up. That's
+  the win.
+DESCRIPTION:136 days left. Whatever happened today\, you showed up. Th
+ at's the win.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261224-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261224T060000
+DTEND:20261224T061500
+SUMMARY:Morning\, superstar. 135 days left\, and every one of them is 
+ an opportunity.
+DESCRIPTION:Morning\, superstar. 135 days left\, and every one of them
+  is an opportunity.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261224-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261224T183000
+DTEND:20261224T184500
+SUMMARY:Evening\, superstar. 135 days to go. Treat yourself. You deser
+ ve it.
+DESCRIPTION:Evening\, superstar. 135 days to go. Treat yourself. You d
+ eserve it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261225-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261225T060000
+DTEND:20261225T061500
+SUMMARY:Long internship? Long list of wins. 134 days left. Go collect 
+ today's.
+DESCRIPTION:Long internship? Long list of wins. 134 days left. Go coll
+ ect today's.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261225-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261225T183000
+DTEND:20261225T184500
+SUMMARY:Today's chapter is closed\, and it was a good one. 134 days le
+ ft.
+DESCRIPTION:Today's chapter is closed\, and it was a good one. 134 day
+ s left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261226-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261226T060000
+DTEND:20261226T061500
+SUMMARY:Plot twist: you're better at this than you think. 133 days to 
+ go.
+DESCRIPTION:Plot twist: you're better at this than you think. 133 days
+  to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261226-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261226T183000
+DTEND:20261226T184500
+SUMMARY:133 days to go. Be gentle with yourself tonight.
+DESCRIPTION:133 days to go. Be gentle with yourself tonight.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261227-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261227T060000
+DTEND:20261227T061500
+SUMMARY:It's a great day to be a legend. 132 days left\, Asnath.
+DESCRIPTION:It's a great day to be a legend. 132 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261227-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261227T183000
+DTEND:20261227T184500
+SUMMARY:The day is done and so is the hard part. 132 days left\, Asnat
+ h.
+DESCRIPTION:The day is done and so is the hard part. 132 days left\, A
+ snath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261228-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261228T060000
+DTEND:20261228T061500
+SUMMARY:Fuel up and glow up. 131 days left on this adventure.
+DESCRIPTION:Fuel up and glow up. 131 days left on this adventure.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261228-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261228T183000
+DTEND:20261228T184500
+SUMMARY:Sunset check: still amazing. 131 days to go.
+DESCRIPTION:Sunset check: still amazing. 131 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261229-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261229T060000
+DTEND:20261229T061500
+SUMMARY:130 days to go. Smile\, send the emails\, steal the show.
+DESCRIPTION:130 days to go. Smile\, send the emails\, steal the show.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261229-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261229T183000
+DTEND:20261229T184500
+SUMMARY:You've got 130 days left and a whole evening to enjoy. Go.
+DESCRIPTION:You've got 130 days left and a whole evening to enjoy. Go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261230-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261230T060000
+DTEND:20261230T061500
+SUMMARY:Good morning\, Asnath! The hours are long but the sunsets are 
+ longer. 129 days left.
+DESCRIPTION:Good morning\, Asnath! The hours are long but the sunsets 
+ are longer. 129 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261230-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261230T183000
+DTEND:20261230T184500
+SUMMARY:Hey Asnath\, proud of you. 129 days to go. Sleep well tonight.
+DESCRIPTION:Hey Asnath\, proud of you. 129 days to go. Sleep well toni
+ ght.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261231-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261231T060000
+DTEND:20261231T061500
+SUMMARY:New day\, new chance to impress someone. 128 days to go.
+DESCRIPTION:New day\, new chance to impress someone. 128 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20261231-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20261231T183000
+DTEND:20261231T184500
+SUMMARY:128 days left. The best interns rest well. That's you.
+DESCRIPTION:128 days left. The best interns rest well. That's you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270101-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270101T060000
+DTEND:20270101T061500
+SUMMARY:Rise\, sparkle\, intern. 127 days left.
+DESCRIPTION:Rise\, sparkle\, intern. 127 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270101-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270101T183000
+DTEND:20270101T184500
+SUMMARY:Wrap it up\, wind down\, glow on. 127 days to go.
+DESCRIPTION:Wrap it up\, wind down\, glow on. 127 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270102-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270102T060000
+DTEND:20270102T061500
+SUMMARY:Your coffee called. It says you've got this. 126 days to go.
+DESCRIPTION:Your coffee called. It says you've got this. 126 days to g
+ o.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270102-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270102T183000
+DTEND:20270102T184500
+SUMMARY:Another sunset\, another small victory. 126 days left.
+DESCRIPTION:Another sunset\, another small victory. 126 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270103-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270103T060000
+DTEND:20270103T061500
+SUMMARY:Eyes on the prize\, Asnath. 125 days left until sunset.
+DESCRIPTION:Eyes on the prize\, Asnath. 125 days left until sunset.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270103-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270103T183000
+DTEND:20270103T184500
+SUMMARY:125 days to go. Dinner\, music\, zero emails. Doctor's orders.
+DESCRIPTION:125 days to go. Dinner\, music\, zero emails. Doctor's ord
+ ers.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270104-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270104T060000
+DTEND:20270104T061500
+SUMMARY:124 days to go. Be the energy you want in the meeting.
+DESCRIPTION:124 days to go. Be the energy you want in the meeting.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270104-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270104T183000
+DTEND:20270104T184500
+SUMMARY:You turned a long day into a good one\, Asnath. 124 days left.
+DESCRIPTION:You turned a long day into a good one\, Asnath. 124 days l
+ eft.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270105-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270105T060000
+DTEND:20270105T061500
+SUMMARY:Today is a good day to be unstoppable. 123 days left.
+DESCRIPTION:Today is a good day to be unstoppable. 123 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270105-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270105T183000
+DTEND:20270105T184500
+SUMMARY:Day complete. Achievement unlocked. 123 days to go.
+DESCRIPTION:Day complete. Achievement unlocked. 123 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270106-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270106T060000
+DTEND:20270106T061500
+SUMMARY:Good morning! 122 days left to turn 'intern' into 'irreplaceab
+ le'.
+DESCRIPTION:Good morning! 122 days left to turn 'intern' into 'irrepla
+ ceable'.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270106-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270106T183000
+DTEND:20270106T184500
+SUMMARY:Tonight's agenda: nothing. You've earned it. 122 days left.
+DESCRIPTION:Tonight's agenda: nothing. You've earned it. 122 days left
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270107-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270107T060000
+DTEND:20270107T061500
+SUMMARY:The early intern gets the good parking spot. 121 days to go.
+DESCRIPTION:The early intern gets the good parking spot. 121 days to g
+ o.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270107-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270107T183000
+DTEND:20270107T184500
+SUMMARY:121 days to go. Tomorrow's a new chance to be great. Tonight\,
+  rest.
+DESCRIPTION:121 days to go. Tomorrow's a new chance to be great. Tonig
+ ht\, rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270108-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270108T060000
+DTEND:20270108T061500
+SUMMARY:Hey Asnath\, you're doing better than you think. 120 days left
+ .
+DESCRIPTION:Hey Asnath\, you're doing better than you think. 120 days 
+ left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270108-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270108T183000
+DTEND:20270108T184500
+SUMMARY:Stars are coming out\, Asnath. So are your best days. 120 days
+  left.
+DESCRIPTION:Stars are coming out\, Asnath. So are your best days. 120 
+ days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270109-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270109T060000
+DTEND:20270109T061500
+SUMMARY:119 days to go. Make Future You proud before lunch.
+DESCRIPTION:119 days to go. Make Future You proud before lunch.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270109-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270109T183000
+DTEND:20270109T184500
+SUMMARY:119 days left. One more sunset down. You make it look easy.
+DESCRIPTION:119 days left. One more sunset down. You make it look easy
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270110-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270110T060000
+DTEND:20270110T061500
+SUMMARY:Another sunrise\, another step closer to greatness. 118 days l
+ eft.
+DESCRIPTION:Another sunrise\, another step closer to greatness. 118 da
+ ys left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270110-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270110T183000
+DTEND:20270110T184500
+SUMMARY:One day down\, 118 days to go. Sucks to be you. Kidding. Go re
+ st.
+DESCRIPTION:One day down\, 118 days to go. Sucks to be you. Kidding. G
+ o rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270111-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270111T060000
+DTEND:20270111T061500
+SUMMARY:Take a breath\, take a sip\, take on the day. 117 days to go.
+DESCRIPTION:Take a breath\, take a sip\, take on the day. 117 days to 
+ go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270111-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270111T183000
+DTEND:20270111T184500
+SUMMARY:117 days left\, Asnath. You survived another one. Be smug abou
+ t it.
+DESCRIPTION:117 days left\, Asnath. You survived another one. Be smug 
+ about it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270112-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270112T060000
+DTEND:20270112T061500
+SUMMARY:116 days left. Ask questions\, take notes\, take over the worl
+ d.
+DESCRIPTION:116 days left. Ask questions\, take notes\, take over the 
+ world.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270112-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270112T183000
+DTEND:20270112T184500
+SUMMARY:Evening! 116 days to go. Still not over. But look how far you'
+ ve come.
+DESCRIPTION:Evening! 116 days to go. Still not over. But look how far 
+ you've come.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270113-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270113T060000
+DTEND:20270113T061500
+SUMMARY:Good morning\, Asnath! Believe in yourself. The coffee already
+  does. 115 days to go.
+DESCRIPTION:Good morning\, Asnath! Believe in yourself. The coffee alr
+ eady does. 115 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270113-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270113T183000
+DTEND:20270113T184500
+SUMMARY:115 days left. Tonight's plan: horizontal. Tomorrow: iconic.
+DESCRIPTION:115 days left. Tonight's plan: horizontal. Tomorrow: iconi
+ c.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270114-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270114T060000
+DTEND:20270114T061500
+SUMMARY:You're one day closer to the finish line. 114 days left. Go ge
+ t it.
+DESCRIPTION:You're one day closer to the finish line. 114 days left. G
+ o get it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270114-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270114T183000
+DTEND:20270114T184500
+SUMMARY:You made it through today. 114 days to go. The couch is proud 
+ of you.
+DESCRIPTION:You made it through today. 114 days to go. The couch is pr
+ oud of you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270115-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270115T060000
+DTEND:20270115T061500
+SUMMARY:Chin up\, Asnath. The view gets better at sunset. 113 days to 
+ go.
+DESCRIPTION:Chin up\, Asnath. The view gets better at sunset. 113 days
+  to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270115-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270115T183000
+DTEND:20270115T184500
+SUMMARY:113 days left. If today was a lot\, tomorrow's a fresh start.
+DESCRIPTION:113 days left. If today was a lot\, tomorrow's a fresh sta
+ rt.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270116-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270116T060000
+DTEND:20270116T061500
+SUMMARY:112 days left. Show up\, shine on.
+DESCRIPTION:112 days left. Show up\, shine on.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270116-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270116T183000
+DTEND:20270116T184500
+SUMMARY:Sunset! 112 days to go. Sucks to be you\, but wow\, you look g
+ ood doing it.
+DESCRIPTION:Sunset! 112 days to go. Sucks to be you\, but wow\, you lo
+ ok good doing it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270117-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270117T060000
+DTEND:20270117T061500
+SUMMARY:Good morning. 111 days left. Sucks to be you. Go be great anyw
+ ay.
+DESCRIPTION:Good morning. 111 days left. Sucks to be you. Go be great 
+ anyway.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270117-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270117T183000
+DTEND:20270117T184500
+SUMMARY:111 days left\, Asnath. Eat dinner. Ignore Slack. Sleep.
+DESCRIPTION:111 days left\, Asnath. Eat dinner. Ignore Slack. Sleep.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270118-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270118T060000
+DTEND:20270118T061500
+SUMMARY:Rise and grind\, Asnath. 110 days to go. Yes\, still that many
+ .
+DESCRIPTION:Rise and grind\, Asnath. 110 days to go. Yes\, still that 
+ many.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270118-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270118T183000
+DTEND:20270118T184500
+SUMMARY:One more day in the bank. 110 days to go. You're doing so well
+ .
+DESCRIPTION:One more day in the bank. 110 days to go. You're doing so 
+ well.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270119-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270119T060000
+DTEND:20270119T061500
+SUMMARY:109 days left. The alarm is cruel but you are cruel-proof.
+DESCRIPTION:109 days left. The alarm is cruel but you are cruel-proof.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270119-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270119T183000
+DTEND:20270119T184500
+SUMMARY:Day done! 109 days to go. You earned that couch\, Asnath.
+DESCRIPTION:Day done! 109 days to go. You earned that couch\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270120-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270120T060000
+DTEND:20270120T061500
+SUMMARY:Morning! 108 days to go. Nobody said building a career would b
+ e glamorous.
+DESCRIPTION:Morning! 108 days to go. Nobody said building a career wou
+ ld be glamorous.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270120-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270120T183000
+DTEND:20270120T184500
+SUMMARY:The sun's setting on today and you absolutely shone. 108 days 
+ left.
+DESCRIPTION:The sun's setting on today and you absolutely shone. 108 d
+ ays left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270121-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270121T060000
+DTEND:20270121T061500
+SUMMARY:107 days left. Sucks to be you\, but also\, you've totally got
+  this.
+DESCRIPTION:107 days left. Sucks to be you\, but also\, you've totally
+  got this.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270121-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270121T183000
+DTEND:20270121T184500
+SUMMARY:Log off\, breathe out. 107 days to go\, zero doubts.
+DESCRIPTION:Log off\, breathe out. 107 days to go\, zero doubts.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270122-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270122T060000
+DTEND:20270122T061500
+SUMMARY:Good morning\, Asnath. 106 days to go. The coffee is on your s
+ ide.
+DESCRIPTION:Good morning\, Asnath. 106 days to go. The coffee is on yo
+ ur side.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270122-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270122T183000
+DTEND:20270122T184500
+SUMMARY:106 days left. Be proud of today. Then eat something delicious
+ .
+DESCRIPTION:106 days left. Be proud of today. Then eat something delic
+ ious.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270123-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270123T060000
+DTEND:20270123T061500
+SUMMARY:105 days left. Put on your brave pants and your good shoes.
+DESCRIPTION:105 days left. Put on your brave pants and your good shoes
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270123-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270123T183000
+DTEND:20270123T184500
+SUMMARY:Another day survived\, and thrived. 105 days to go\, Asnath.
+DESCRIPTION:Another day survived\, and thrived. 105 days to go\, Asnat
+ h.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270124-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270124T060000
+DTEND:20270124T061500
+SUMMARY:Today's agenda: survive\, thrive\, snack. 104 days left\, Asna
+ th.
+DESCRIPTION:Today's agenda: survive\, thrive\, snack. 104 days left\, 
+ Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270124-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270124T183000
+DTEND:20270124T184500
+SUMMARY:Close the laptop\, open the snacks. 104 days left.
+DESCRIPTION:Close the laptop\, open the snacks. 104 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270125-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270125T060000
+DTEND:20270125T061500
+SUMMARY:103 days to go. If it were easy\, it wouldn't be this long.
+DESCRIPTION:103 days to go. If it were easy\, it wouldn't be this long
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270125-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270125T183000
+DTEND:20270125T184500
+SUMMARY:You did good today\, Asnath. 103 days to go. Rest up.
+DESCRIPTION:You did good today\, Asnath. 103 days to go. Rest up.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270126-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270126T060000
+DTEND:20270126T061500
+SUMMARY:Rise and shine\, Asnath! 102 days to go. Be the intern they ne
+ ver forget.
+DESCRIPTION:Rise and shine\, Asnath! 102 days to go. Be the intern the
+ y never forget.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270126-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270126T183000
+DTEND:20270126T184500
+SUMMARY:Sunset time. 102 days left. Today's wins go in the trophy cabi
+ net.
+DESCRIPTION:Sunset time. 102 days left. Today's wins go in the trophy 
+ cabinet.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270127-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270127T060000
+DTEND:20270127T061500
+SUMMARY:101 days left. Coffee first\, world domination second.
+DESCRIPTION:101 days left. Coffee first\, world domination second.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270127-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270127T183000
+DTEND:20270127T184500
+SUMMARY:101 days to go. The inbox can wait. You've done enough today.
+DESCRIPTION:101 days to go. The inbox can wait. You've done enough tod
+ ay.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270128-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270128T060000
+DTEND:20270128T061500
+SUMMARY:Good morning! Only 100 sunrises left in this internship. Make 
+ this one count.
+DESCRIPTION:Good morning! Only 100 sunrises left in this internship. M
+ ake this one count.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270128-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270128T183000
+DTEND:20270128T184500
+SUMMARY:Good evening\, legend. 100 days left. Tomorrow needs you well 
+ rested.
+DESCRIPTION:Good evening\, legend. 100 days left. Tomorrow needs you w
+ ell rested.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270129-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270129T060000
+DTEND:20270129T061500
+SUMMARY:Another day\, another chance to be the best thing that happene
+ d to that office. 99 to go.
+DESCRIPTION:Another day\, another chance to be the best thing that hap
+ pened to that office. 99 to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270129-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270129T183000
+DTEND:20270129T184500
+SUMMARY:Another page turned. 99 days to go. Hot take: you're doing gre
+ at.
+DESCRIPTION:Another page turned. 99 days to go. Hot take: you're doing
+  great.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270130-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270130T060000
+DTEND:20270130T061500
+SUMMARY:Wake up\, Asnath. The sun is up and so is your potential. 98 d
+ ays left.
+DESCRIPTION:Wake up\, Asnath. The sun is up and so is your potential. 
+ 98 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270130-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270130T183000
+DTEND:20270130T184500
+SUMMARY:Kick off the work shoes. 98 days left\, Asnath.
+DESCRIPTION:Kick off the work shoes. 98 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270131-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270131T060000
+DTEND:20270131T061500
+SUMMARY:97 days to go. Today's mission: be brilliant\, be kind\, be on
+  time-ish.
+DESCRIPTION:97 days to go. Today's mission: be brilliant\, be kind\, b
+ e on time-ish.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270131-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270131T183000
+DTEND:20270131T184500
+SUMMARY:97 days left. Whatever happened today\, you showed up. That's 
+ the win.
+DESCRIPTION:97 days left. Whatever happened today\, you showed up. Tha
+ t's the win.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270201-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270201T060000
+DTEND:20270201T061500
+SUMMARY:Morning\, superstar. 96 days left\, and every one of them is a
+ n opportunity.
+DESCRIPTION:Morning\, superstar. 96 days left\, and every one of them 
+ is an opportunity.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270201-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270201T183000
+DTEND:20270201T184500
+SUMMARY:Evening\, superstar. 96 days to go. Treat yourself. You deserv
+ e it.
+DESCRIPTION:Evening\, superstar. 96 days to go. Treat yourself. You de
+ serve it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270202-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270202T060000
+DTEND:20270202T061500
+SUMMARY:Long internship? Long list of wins. 95 days left. Go collect t
+ oday's.
+DESCRIPTION:Long internship? Long list of wins. 95 days left. Go colle
+ ct today's.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270202-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270202T183000
+DTEND:20270202T184500
+SUMMARY:Today's chapter is closed\, and it was a good one. 95 days lef
+ t.
+DESCRIPTION:Today's chapter is closed\, and it was a good one. 95 days
+  left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270203-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270203T060000
+DTEND:20270203T061500
+SUMMARY:Plot twist: you're better at this than you think. 94 days to g
+ o.
+DESCRIPTION:Plot twist: you're better at this than you think. 94 days 
+ to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270203-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270203T183000
+DTEND:20270203T184500
+SUMMARY:94 days to go. Be gentle with yourself tonight.
+DESCRIPTION:94 days to go. Be gentle with yourself tonight.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270204-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270204T060000
+DTEND:20270204T061500
+SUMMARY:It's a great day to be a legend. 93 days left\, Asnath.
+DESCRIPTION:It's a great day to be a legend. 93 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270204-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270204T183000
+DTEND:20270204T184500
+SUMMARY:The day is done and so is the hard part. 93 days left\, Asnath
+ .
+DESCRIPTION:The day is done and so is the hard part. 93 days left\, As
+ nath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270205-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270205T060000
+DTEND:20270205T061500
+SUMMARY:Fuel up and glow up. 92 days left on this adventure.
+DESCRIPTION:Fuel up and glow up. 92 days left on this adventure.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270205-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270205T183000
+DTEND:20270205T184500
+SUMMARY:Sunset check: still amazing. 92 days to go.
+DESCRIPTION:Sunset check: still amazing. 92 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270206-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270206T060000
+DTEND:20270206T061500
+SUMMARY:91 days to go. Smile\, send the emails\, steal the show.
+DESCRIPTION:91 days to go. Smile\, send the emails\, steal the show.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270206-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270206T183000
+DTEND:20270206T184500
+SUMMARY:You've got 91 days left and a whole evening to enjoy. Go.
+DESCRIPTION:You've got 91 days left and a whole evening to enjoy. Go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270207-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270207T060000
+DTEND:20270207T061500
+SUMMARY:Good morning\, Asnath! The hours are long but the sunsets are 
+ longer. 90 days left.
+DESCRIPTION:Good morning\, Asnath! The hours are long but the sunsets 
+ are longer. 90 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270207-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270207T183000
+DTEND:20270207T184500
+SUMMARY:Hey Asnath\, proud of you. 90 days to go. Sleep well tonight.
+DESCRIPTION:Hey Asnath\, proud of you. 90 days to go. Sleep well tonig
+ ht.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270208-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270208T060000
+DTEND:20270208T061500
+SUMMARY:New day\, new chance to impress someone. 89 days to go.
+DESCRIPTION:New day\, new chance to impress someone. 89 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270208-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270208T183000
+DTEND:20270208T184500
+SUMMARY:89 days left. The best interns rest well. That's you.
+DESCRIPTION:89 days left. The best interns rest well. That's you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270209-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270209T060000
+DTEND:20270209T061500
+SUMMARY:Rise\, sparkle\, intern. 88 days left.
+DESCRIPTION:Rise\, sparkle\, intern. 88 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270209-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270209T183000
+DTEND:20270209T184500
+SUMMARY:Wrap it up\, wind down\, glow on. 88 days to go.
+DESCRIPTION:Wrap it up\, wind down\, glow on. 88 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270210-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270210T060000
+DTEND:20270210T061500
+SUMMARY:Your coffee called. It says you've got this. 87 days to go.
+DESCRIPTION:Your coffee called. It says you've got this. 87 days to go
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270210-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270210T183000
+DTEND:20270210T184500
+SUMMARY:Another sunset\, another small victory. 87 days left.
+DESCRIPTION:Another sunset\, another small victory. 87 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270211-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270211T060000
+DTEND:20270211T061500
+SUMMARY:Eyes on the prize\, Asnath. 86 days left until sunset.
+DESCRIPTION:Eyes on the prize\, Asnath. 86 days left until sunset.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270211-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270211T183000
+DTEND:20270211T184500
+SUMMARY:86 days to go. Dinner\, music\, zero emails. Doctor's orders.
+DESCRIPTION:86 days to go. Dinner\, music\, zero emails. Doctor's orde
+ rs.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270212-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270212T060000
+DTEND:20270212T061500
+SUMMARY:85 days to go. Be the energy you want in the meeting.
+DESCRIPTION:85 days to go. Be the energy you want in the meeting.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270212-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270212T183000
+DTEND:20270212T184500
+SUMMARY:You turned a long day into a good one\, Asnath. 85 days left.
+DESCRIPTION:You turned a long day into a good one\, Asnath. 85 days le
+ ft.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270213-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270213T060000
+DTEND:20270213T061500
+SUMMARY:Today is a good day to be unstoppable. 84 days left.
+DESCRIPTION:Today is a good day to be unstoppable. 84 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270213-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270213T183000
+DTEND:20270213T184500
+SUMMARY:Day complete. Achievement unlocked. 84 days to go.
+DESCRIPTION:Day complete. Achievement unlocked. 84 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270214-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270214T060000
+DTEND:20270214T061500
+SUMMARY:Good morning! 83 days left to turn 'intern' into 'irreplaceabl
+ e'.
+DESCRIPTION:Good morning! 83 days left to turn 'intern' into 'irreplac
+ eable'.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270214-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270214T183000
+DTEND:20270214T184500
+SUMMARY:Tonight's agenda: nothing. You've earned it. 83 days left.
+DESCRIPTION:Tonight's agenda: nothing. You've earned it. 83 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270215-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270215T060000
+DTEND:20270215T061500
+SUMMARY:The early intern gets the good parking spot. 82 days to go.
+DESCRIPTION:The early intern gets the good parking spot. 82 days to go
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270215-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270215T183000
+DTEND:20270215T184500
+SUMMARY:82 days to go. Tomorrow's a new chance to be great. Tonight\, 
+ rest.
+DESCRIPTION:82 days to go. Tomorrow's a new chance to be great. Tonigh
+ t\, rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270216-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270216T060000
+DTEND:20270216T061500
+SUMMARY:Hey Asnath\, you're doing better than you think. 81 days left.
+DESCRIPTION:Hey Asnath\, you're doing better than you think. 81 days l
+ eft.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270216-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270216T183000
+DTEND:20270216T184500
+SUMMARY:Stars are coming out\, Asnath. So are your best days. 81 days 
+ left.
+DESCRIPTION:Stars are coming out\, Asnath. So are your best days. 81 d
+ ays left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270217-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270217T060000
+DTEND:20270217T061500
+SUMMARY:80 days to go. Make Future You proud before lunch.
+DESCRIPTION:80 days to go. Make Future You proud before lunch.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270217-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270217T183000
+DTEND:20270217T184500
+SUMMARY:80 days left. One more sunset down. You make it look easy.
+DESCRIPTION:80 days left. One more sunset down. You make it look easy.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270218-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270218T060000
+DTEND:20270218T061500
+SUMMARY:Another sunrise\, another step closer to greatness. 79 days le
+ ft.
+DESCRIPTION:Another sunrise\, another step closer to greatness. 79 day
+ s left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270218-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270218T183000
+DTEND:20270218T184500
+SUMMARY:One day down\, 79 days to go. Sucks to be you. Kidding. Go res
+ t.
+DESCRIPTION:One day down\, 79 days to go. Sucks to be you. Kidding. Go
+  rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270219-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270219T060000
+DTEND:20270219T061500
+SUMMARY:Take a breath\, take a sip\, take on the day. 78 days to go.
+DESCRIPTION:Take a breath\, take a sip\, take on the day. 78 days to g
+ o.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270219-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270219T183000
+DTEND:20270219T184500
+SUMMARY:78 days left\, Asnath. You survived another one. Be smug about
+  it.
+DESCRIPTION:78 days left\, Asnath. You survived another one. Be smug a
+ bout it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270220-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270220T060000
+DTEND:20270220T061500
+SUMMARY:77 days left. Ask questions\, take notes\, take over the world
+ .
+DESCRIPTION:77 days left. Ask questions\, take notes\, take over the w
+ orld.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270220-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270220T183000
+DTEND:20270220T184500
+SUMMARY:Evening! 77 days to go. Still not over. But look how far you'v
+ e come.
+DESCRIPTION:Evening! 77 days to go. Still not over. But look how far y
+ ou've come.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270221-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270221T060000
+DTEND:20270221T061500
+SUMMARY:Good morning\, Asnath! Believe in yourself. The coffee already
+  does. 76 days to go.
+DESCRIPTION:Good morning\, Asnath! Believe in yourself. The coffee alr
+ eady does. 76 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270221-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270221T183000
+DTEND:20270221T184500
+SUMMARY:76 days left. Tonight's plan: horizontal. Tomorrow: iconic.
+DESCRIPTION:76 days left. Tonight's plan: horizontal. Tomorrow: iconic
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270222-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270222T060000
+DTEND:20270222T061500
+SUMMARY:You're one day closer to the finish line. 75 days left. Go get
+  it.
+DESCRIPTION:You're one day closer to the finish line. 75 days left. Go
+  get it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270222-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270222T183000
+DTEND:20270222T184500
+SUMMARY:You made it through today. 75 days to go. The couch is proud o
+ f you.
+DESCRIPTION:You made it through today. 75 days to go. The couch is pro
+ ud of you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270223-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270223T060000
+DTEND:20270223T061500
+SUMMARY:Chin up\, Asnath. The view gets better at sunset. 74 days to g
+ o.
+DESCRIPTION:Chin up\, Asnath. The view gets better at sunset. 74 days 
+ to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270223-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270223T183000
+DTEND:20270223T184500
+SUMMARY:74 days left. If today was a lot\, tomorrow's a fresh start.
+DESCRIPTION:74 days left. If today was a lot\, tomorrow's a fresh star
+ t.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270224-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270224T060000
+DTEND:20270224T061500
+SUMMARY:73 days left. Show up\, shine on.
+DESCRIPTION:73 days left. Show up\, shine on.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270224-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270224T183000
+DTEND:20270224T184500
+SUMMARY:Sunset! 73 days to go. Sucks to be you\, but wow\, you look go
+ od doing it.
+DESCRIPTION:Sunset! 73 days to go. Sucks to be you\, but wow\, you loo
+ k good doing it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270225-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270225T060000
+DTEND:20270225T061500
+SUMMARY:Good morning. 72 days left. Sucks to be you. Go be great anywa
+ y.
+DESCRIPTION:Good morning. 72 days left. Sucks to be you. Go be great a
+ nyway.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270225-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270225T183000
+DTEND:20270225T184500
+SUMMARY:72 days left\, Asnath. Eat dinner. Ignore Slack. Sleep.
+DESCRIPTION:72 days left\, Asnath. Eat dinner. Ignore Slack. Sleep.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270226-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270226T060000
+DTEND:20270226T061500
+SUMMARY:Rise and grind\, Asnath. 71 days to go. Yes\, still that many.
+DESCRIPTION:Rise and grind\, Asnath. 71 days to go. Yes\, still that m
+ any.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270226-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270226T183000
+DTEND:20270226T184500
+SUMMARY:One more day in the bank. 71 days to go. You're doing so well.
+DESCRIPTION:One more day in the bank. 71 days to go. You're doing so w
+ ell.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270227-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270227T060000
+DTEND:20270227T061500
+SUMMARY:70 days left. The alarm is cruel but you are cruel-proof.
+DESCRIPTION:70 days left. The alarm is cruel but you are cruel-proof.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270227-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270227T183000
+DTEND:20270227T184500
+SUMMARY:Day done! 70 days to go. You earned that couch\, Asnath.
+DESCRIPTION:Day done! 70 days to go. You earned that couch\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270228-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270228T060000
+DTEND:20270228T061500
+SUMMARY:Morning! 69 days to go. Nobody said building a career would be
+  glamorous.
+DESCRIPTION:Morning! 69 days to go. Nobody said building a career woul
+ d be glamorous.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270228-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270228T183000
+DTEND:20270228T184500
+SUMMARY:The sun's setting on today and you absolutely shone. 69 days l
+ eft.
+DESCRIPTION:The sun's setting on today and you absolutely shone. 69 da
+ ys left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270301-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270301T060000
+DTEND:20270301T061500
+SUMMARY:68 days left. Sucks to be you\, but also\, you've totally got 
+ this.
+DESCRIPTION:68 days left. Sucks to be you\, but also\, you've totally 
+ got this.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270301-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270301T183000
+DTEND:20270301T184500
+SUMMARY:Log off\, breathe out. 68 days to go\, zero doubts.
+DESCRIPTION:Log off\, breathe out. 68 days to go\, zero doubts.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270302-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270302T060000
+DTEND:20270302T061500
+SUMMARY:Good morning\, Asnath. 67 days to go. The coffee is on your si
+ de.
+DESCRIPTION:Good morning\, Asnath. 67 days to go. The coffee is on you
+ r side.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270302-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270302T183000
+DTEND:20270302T184500
+SUMMARY:67 days left. Be proud of today. Then eat something delicious.
+DESCRIPTION:67 days left. Be proud of today. Then eat something delici
+ ous.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270303-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270303T060000
+DTEND:20270303T061500
+SUMMARY:66 days left. Put on your brave pants and your good shoes.
+DESCRIPTION:66 days left. Put on your brave pants and your good shoes.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270303-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270303T183000
+DTEND:20270303T184500
+SUMMARY:Another day survived\, and thrived. 66 days to go\, Asnath.
+DESCRIPTION:Another day survived\, and thrived. 66 days to go\, Asnath
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270304-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270304T060000
+DTEND:20270304T061500
+SUMMARY:Today's agenda: survive\, thrive\, snack. 65 days left\, Asnat
+ h.
+DESCRIPTION:Today's agenda: survive\, thrive\, snack. 65 days left\, A
+ snath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270304-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270304T183000
+DTEND:20270304T184500
+SUMMARY:Close the laptop\, open the snacks. 65 days left.
+DESCRIPTION:Close the laptop\, open the snacks. 65 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270305-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270305T060000
+DTEND:20270305T061500
+SUMMARY:64 days to go. If it were easy\, it wouldn't be this long.
+DESCRIPTION:64 days to go. If it were easy\, it wouldn't be this long.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270305-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270305T183000
+DTEND:20270305T184500
+SUMMARY:You did good today\, Asnath. 64 days to go. Rest up.
+DESCRIPTION:You did good today\, Asnath. 64 days to go. Rest up.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270306-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270306T060000
+DTEND:20270306T061500
+SUMMARY:Rise and shine\, Asnath! 63 days to go. Be the intern they nev
+ er forget.
+DESCRIPTION:Rise and shine\, Asnath! 63 days to go. Be the intern they
+  never forget.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270306-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270306T183000
+DTEND:20270306T184500
+SUMMARY:Sunset time. 63 days left. Today's wins go in the trophy cabin
+ et.
+DESCRIPTION:Sunset time. 63 days left. Today's wins go in the trophy c
+ abinet.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270307-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270307T060000
+DTEND:20270307T061500
+SUMMARY:62 days left. Coffee first\, world domination second.
+DESCRIPTION:62 days left. Coffee first\, world domination second.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270307-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270307T183000
+DTEND:20270307T184500
+SUMMARY:62 days to go. The inbox can wait. You've done enough today.
+DESCRIPTION:62 days to go. The inbox can wait. You've done enough toda
+ y.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270308-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270308T060000
+DTEND:20270308T061500
+SUMMARY:Good morning! Only 61 sunrises left in this internship. Make t
+ his one count.
+DESCRIPTION:Good morning! Only 61 sunrises left in this internship. Ma
+ ke this one count.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270308-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270308T183000
+DTEND:20270308T184500
+SUMMARY:Good evening\, legend. 61 days left. Tomorrow needs you well r
+ ested.
+DESCRIPTION:Good evening\, legend. 61 days left. Tomorrow needs you we
+ ll rested.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270309-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270309T060000
+DTEND:20270309T061500
+SUMMARY:Another day\, another chance to be the best thing that happene
+ d to that office. 60 to go.
+DESCRIPTION:Another day\, another chance to be the best thing that hap
+ pened to that office. 60 to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270309-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270309T183000
+DTEND:20270309T184500
+SUMMARY:Another page turned. 60 days to go. Hot take: you're doing gre
+ at.
+DESCRIPTION:Another page turned. 60 days to go. Hot take: you're doing
+  great.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270310-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270310T060000
+DTEND:20270310T061500
+SUMMARY:Wake up\, Asnath. The sun is up and so is your potential. 59 d
+ ays left.
+DESCRIPTION:Wake up\, Asnath. The sun is up and so is your potential. 
+ 59 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270310-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270310T183000
+DTEND:20270310T184500
+SUMMARY:Kick off the work shoes. 59 days left\, Asnath.
+DESCRIPTION:Kick off the work shoes. 59 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270311-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270311T060000
+DTEND:20270311T061500
+SUMMARY:58 days to go. Today's mission: be brilliant\, be kind\, be on
+  time-ish.
+DESCRIPTION:58 days to go. Today's mission: be brilliant\, be kind\, b
+ e on time-ish.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270311-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270311T183000
+DTEND:20270311T184500
+SUMMARY:58 days left. Whatever happened today\, you showed up. That's 
+ the win.
+DESCRIPTION:58 days left. Whatever happened today\, you showed up. Tha
+ t's the win.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270312-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270312T060000
+DTEND:20270312T061500
+SUMMARY:Morning\, superstar. 57 days left\, and every one of them is a
+ n opportunity.
+DESCRIPTION:Morning\, superstar. 57 days left\, and every one of them 
+ is an opportunity.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270312-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270312T183000
+DTEND:20270312T184500
+SUMMARY:Evening\, superstar. 57 days to go. Treat yourself. You deserv
+ e it.
+DESCRIPTION:Evening\, superstar. 57 days to go. Treat yourself. You de
+ serve it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270313-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270313T060000
+DTEND:20270313T061500
+SUMMARY:Long internship? Long list of wins. 56 days left. Go collect t
+ oday's.
+DESCRIPTION:Long internship? Long list of wins. 56 days left. Go colle
+ ct today's.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270313-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270313T183000
+DTEND:20270313T184500
+SUMMARY:Today's chapter is closed\, and it was a good one. 56 days lef
+ t.
+DESCRIPTION:Today's chapter is closed\, and it was a good one. 56 days
+  left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270314-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270314T060000
+DTEND:20270314T061500
+SUMMARY:Plot twist: you're better at this than you think. 55 days to g
+ o.
+DESCRIPTION:Plot twist: you're better at this than you think. 55 days 
+ to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270314-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270314T183000
+DTEND:20270314T184500
+SUMMARY:55 days to go. Be gentle with yourself tonight.
+DESCRIPTION:55 days to go. Be gentle with yourself tonight.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270315-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270315T060000
+DTEND:20270315T061500
+SUMMARY:It's a great day to be a legend. 54 days left\, Asnath.
+DESCRIPTION:It's a great day to be a legend. 54 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270315-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270315T183000
+DTEND:20270315T184500
+SUMMARY:The day is done and so is the hard part. 54 days left\, Asnath
+ .
+DESCRIPTION:The day is done and so is the hard part. 54 days left\, As
+ nath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270316-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270316T060000
+DTEND:20270316T061500
+SUMMARY:Fuel up and glow up. 53 days left on this adventure.
+DESCRIPTION:Fuel up and glow up. 53 days left on this adventure.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270316-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270316T183000
+DTEND:20270316T184500
+SUMMARY:Sunset check: still amazing. 53 days to go.
+DESCRIPTION:Sunset check: still amazing. 53 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270317-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270317T060000
+DTEND:20270317T061500
+SUMMARY:52 days to go. Smile\, send the emails\, steal the show.
+DESCRIPTION:52 days to go. Smile\, send the emails\, steal the show.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270317-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270317T183000
+DTEND:20270317T184500
+SUMMARY:You've got 52 days left and a whole evening to enjoy. Go.
+DESCRIPTION:You've got 52 days left and a whole evening to enjoy. Go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270318-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270318T060000
+DTEND:20270318T061500
+SUMMARY:Good morning\, Asnath! The hours are long but the sunsets are 
+ longer. 51 days left.
+DESCRIPTION:Good morning\, Asnath! The hours are long but the sunsets 
+ are longer. 51 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270318-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270318T183000
+DTEND:20270318T184500
+SUMMARY:Hey Asnath\, proud of you. 51 days to go. Sleep well tonight.
+DESCRIPTION:Hey Asnath\, proud of you. 51 days to go. Sleep well tonig
+ ht.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270319-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270319T060000
+DTEND:20270319T061500
+SUMMARY:New day\, new chance to impress someone. 50 days to go.
+DESCRIPTION:New day\, new chance to impress someone. 50 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270319-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270319T183000
+DTEND:20270319T184500
+SUMMARY:50 days left. The best interns rest well. That's you.
+DESCRIPTION:50 days left. The best interns rest well. That's you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270320-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270320T060000
+DTEND:20270320T061500
+SUMMARY:Rise\, sparkle\, intern. 49 days left.
+DESCRIPTION:Rise\, sparkle\, intern. 49 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270320-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270320T183000
+DTEND:20270320T184500
+SUMMARY:Wrap it up\, wind down\, glow on. 49 days to go.
+DESCRIPTION:Wrap it up\, wind down\, glow on. 49 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270321-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270321T060000
+DTEND:20270321T061500
+SUMMARY:Your coffee called. It says you've got this. 48 days to go.
+DESCRIPTION:Your coffee called. It says you've got this. 48 days to go
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270321-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270321T183000
+DTEND:20270321T184500
+SUMMARY:Another sunset\, another small victory. 48 days left.
+DESCRIPTION:Another sunset\, another small victory. 48 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270322-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270322T060000
+DTEND:20270322T061500
+SUMMARY:Eyes on the prize\, Asnath. 47 days left until sunset.
+DESCRIPTION:Eyes on the prize\, Asnath. 47 days left until sunset.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270322-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270322T183000
+DTEND:20270322T184500
+SUMMARY:47 days to go. Dinner\, music\, zero emails. Doctor's orders.
+DESCRIPTION:47 days to go. Dinner\, music\, zero emails. Doctor's orde
+ rs.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270323-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270323T060000
+DTEND:20270323T061500
+SUMMARY:46 days to go. Be the energy you want in the meeting.
+DESCRIPTION:46 days to go. Be the energy you want in the meeting.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270323-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270323T183000
+DTEND:20270323T184500
+SUMMARY:You turned a long day into a good one\, Asnath. 46 days left.
+DESCRIPTION:You turned a long day into a good one\, Asnath. 46 days le
+ ft.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270324-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270324T060000
+DTEND:20270324T061500
+SUMMARY:Today is a good day to be unstoppable. 45 days left.
+DESCRIPTION:Today is a good day to be unstoppable. 45 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270324-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270324T183000
+DTEND:20270324T184500
+SUMMARY:Day complete. Achievement unlocked. 45 days to go.
+DESCRIPTION:Day complete. Achievement unlocked. 45 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270325-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270325T060000
+DTEND:20270325T061500
+SUMMARY:Good morning! 44 days left to turn 'intern' into 'irreplaceabl
+ e'.
+DESCRIPTION:Good morning! 44 days left to turn 'intern' into 'irreplac
+ eable'.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270325-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270325T183000
+DTEND:20270325T184500
+SUMMARY:Tonight's agenda: nothing. You've earned it. 44 days left.
+DESCRIPTION:Tonight's agenda: nothing. You've earned it. 44 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270326-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270326T060000
+DTEND:20270326T061500
+SUMMARY:The early intern gets the good parking spot. 43 days to go.
+DESCRIPTION:The early intern gets the good parking spot. 43 days to go
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270326-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270326T183000
+DTEND:20270326T184500
+SUMMARY:43 days to go. Tomorrow's a new chance to be great. Tonight\, 
+ rest.
+DESCRIPTION:43 days to go. Tomorrow's a new chance to be great. Tonigh
+ t\, rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270327-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270327T060000
+DTEND:20270327T061500
+SUMMARY:Hey Asnath\, you're doing better than you think. 42 days left.
+DESCRIPTION:Hey Asnath\, you're doing better than you think. 42 days l
+ eft.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270327-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270327T183000
+DTEND:20270327T184500
+SUMMARY:Stars are coming out\, Asnath. So are your best days. 42 days 
+ left.
+DESCRIPTION:Stars are coming out\, Asnath. So are your best days. 42 d
+ ays left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270328-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270328T060000
+DTEND:20270328T061500
+SUMMARY:41 days to go. Make Future You proud before lunch.
+DESCRIPTION:41 days to go. Make Future You proud before lunch.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270328-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270328T183000
+DTEND:20270328T184500
+SUMMARY:41 days left. One more sunset down. You make it look easy.
+DESCRIPTION:41 days left. One more sunset down. You make it look easy.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270329-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270329T060000
+DTEND:20270329T061500
+SUMMARY:Another sunrise\, another step closer to greatness. 40 days le
+ ft.
+DESCRIPTION:Another sunrise\, another step closer to greatness. 40 day
+ s left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270329-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270329T183000
+DTEND:20270329T184500
+SUMMARY:One day down\, 40 days to go. Sucks to be you. Kidding. Go res
+ t.
+DESCRIPTION:One day down\, 40 days to go. Sucks to be you. Kidding. Go
+  rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270330-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270330T060000
+DTEND:20270330T061500
+SUMMARY:Take a breath\, take a sip\, take on the day. 39 days to go.
+DESCRIPTION:Take a breath\, take a sip\, take on the day. 39 days to g
+ o.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270330-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270330T183000
+DTEND:20270330T184500
+SUMMARY:39 days left\, Asnath. You survived another one. Be smug about
+  it.
+DESCRIPTION:39 days left\, Asnath. You survived another one. Be smug a
+ bout it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270331-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270331T060000
+DTEND:20270331T061500
+SUMMARY:38 days left. Ask questions\, take notes\, take over the world
+ .
+DESCRIPTION:38 days left. Ask questions\, take notes\, take over the w
+ orld.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270331-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270331T183000
+DTEND:20270331T184500
+SUMMARY:Evening! 38 days to go. Still not over. But look how far you'v
+ e come.
+DESCRIPTION:Evening! 38 days to go. Still not over. But look how far y
+ ou've come.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270401-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270401T060000
+DTEND:20270401T061500
+SUMMARY:Good morning\, Asnath! Believe in yourself. The coffee already
+  does. 37 days to go.
+DESCRIPTION:Good morning\, Asnath! Believe in yourself. The coffee alr
+ eady does. 37 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270401-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270401T183000
+DTEND:20270401T184500
+SUMMARY:37 days left. Tonight's plan: horizontal. Tomorrow: iconic.
+DESCRIPTION:37 days left. Tonight's plan: horizontal. Tomorrow: iconic
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270402-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270402T060000
+DTEND:20270402T061500
+SUMMARY:You're one day closer to the finish line. 36 days left. Go get
+  it.
+DESCRIPTION:You're one day closer to the finish line. 36 days left. Go
+  get it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270402-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270402T183000
+DTEND:20270402T184500
+SUMMARY:You made it through today. 36 days to go. The couch is proud o
+ f you.
+DESCRIPTION:You made it through today. 36 days to go. The couch is pro
+ ud of you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270403-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270403T060000
+DTEND:20270403T061500
+SUMMARY:Chin up\, Asnath. The view gets better at sunset. 35 days to g
+ o.
+DESCRIPTION:Chin up\, Asnath. The view gets better at sunset. 35 days 
+ to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270403-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270403T183000
+DTEND:20270403T184500
+SUMMARY:35 days left. If today was a lot\, tomorrow's a fresh start.
+DESCRIPTION:35 days left. If today was a lot\, tomorrow's a fresh star
+ t.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270404-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270404T060000
+DTEND:20270404T061500
+SUMMARY:34 days left. Show up\, shine on.
+DESCRIPTION:34 days left. Show up\, shine on.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270404-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270404T183000
+DTEND:20270404T184500
+SUMMARY:Sunset! 34 days to go. Sucks to be you\, but wow\, you look go
+ od doing it.
+DESCRIPTION:Sunset! 34 days to go. Sucks to be you\, but wow\, you loo
+ k good doing it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270405-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270405T060000
+DTEND:20270405T061500
+SUMMARY:Good morning. 33 days left. Sucks to be you. Go be great anywa
+ y.
+DESCRIPTION:Good morning. 33 days left. Sucks to be you. Go be great a
+ nyway.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270405-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270405T183000
+DTEND:20270405T184500
+SUMMARY:33 days left\, Asnath. Eat dinner. Ignore Slack. Sleep.
+DESCRIPTION:33 days left\, Asnath. Eat dinner. Ignore Slack. Sleep.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270406-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270406T060000
+DTEND:20270406T061500
+SUMMARY:Rise and grind\, Asnath. 32 days to go. Yes\, still that many.
+DESCRIPTION:Rise and grind\, Asnath. 32 days to go. Yes\, still that m
+ any.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270406-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270406T183000
+DTEND:20270406T184500
+SUMMARY:One more day in the bank. 32 days to go. You're doing so well.
+DESCRIPTION:One more day in the bank. 32 days to go. You're doing so w
+ ell.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270407-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270407T060000
+DTEND:20270407T061500
+SUMMARY:31 days left. The alarm is cruel but you are cruel-proof.
+DESCRIPTION:31 days left. The alarm is cruel but you are cruel-proof.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270407-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270407T183000
+DTEND:20270407T184500
+SUMMARY:Day done! 31 days to go. You earned that couch\, Asnath.
+DESCRIPTION:Day done! 31 days to go. You earned that couch\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270408-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270408T060000
+DTEND:20270408T061500
+SUMMARY:Morning! 30 days to go. Nobody said building a career would be
+  glamorous.
+DESCRIPTION:Morning! 30 days to go. Nobody said building a career woul
+ d be glamorous.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270408-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270408T183000
+DTEND:20270408T184500
+SUMMARY:The sun's setting on today and you absolutely shone. 30 days l
+ eft.
+DESCRIPTION:The sun's setting on today and you absolutely shone. 30 da
+ ys left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270409-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270409T060000
+DTEND:20270409T061500
+SUMMARY:29 days left. Sucks to be you\, but also\, you've totally got 
+ this.
+DESCRIPTION:29 days left. Sucks to be you\, but also\, you've totally 
+ got this.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270409-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270409T183000
+DTEND:20270409T184500
+SUMMARY:Log off\, breathe out. 29 days to go\, zero doubts.
+DESCRIPTION:Log off\, breathe out. 29 days to go\, zero doubts.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270410-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270410T060000
+DTEND:20270410T061500
+SUMMARY:Good morning\, Asnath. 28 days to go. The coffee is on your si
+ de.
+DESCRIPTION:Good morning\, Asnath. 28 days to go. The coffee is on you
+ r side.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270410-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270410T183000
+DTEND:20270410T184500
+SUMMARY:28 days left. Be proud of today. Then eat something delicious.
+DESCRIPTION:28 days left. Be proud of today. Then eat something delici
+ ous.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270411-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270411T060000
+DTEND:20270411T061500
+SUMMARY:27 days left. Put on your brave pants and your good shoes.
+DESCRIPTION:27 days left. Put on your brave pants and your good shoes.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270411-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270411T183000
+DTEND:20270411T184500
+SUMMARY:Another day survived\, and thrived. 27 days to go\, Asnath.
+DESCRIPTION:Another day survived\, and thrived. 27 days to go\, Asnath
+ .
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270412-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270412T060000
+DTEND:20270412T061500
+SUMMARY:Today's agenda: survive\, thrive\, snack. 26 days left\, Asnat
+ h.
+DESCRIPTION:Today's agenda: survive\, thrive\, snack. 26 days left\, A
+ snath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270412-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270412T183000
+DTEND:20270412T184500
+SUMMARY:Close the laptop\, open the snacks. 26 days left.
+DESCRIPTION:Close the laptop\, open the snacks. 26 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270413-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270413T060000
+DTEND:20270413T061500
+SUMMARY:25 days to go. If it were easy\, it wouldn't be this long.
+DESCRIPTION:25 days to go. If it were easy\, it wouldn't be this long.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270413-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270413T183000
+DTEND:20270413T184500
+SUMMARY:You did good today\, Asnath. 25 days to go. Rest up.
+DESCRIPTION:You did good today\, Asnath. 25 days to go. Rest up.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270414-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270414T060000
+DTEND:20270414T061500
+SUMMARY:Rise and shine\, Asnath! 24 days to go. Be the intern they nev
+ er forget.
+DESCRIPTION:Rise and shine\, Asnath! 24 days to go. Be the intern they
+  never forget.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270414-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270414T183000
+DTEND:20270414T184500
+SUMMARY:Sunset time. 24 days left. Today's wins go in the trophy cabin
+ et.
+DESCRIPTION:Sunset time. 24 days left. Today's wins go in the trophy c
+ abinet.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270415-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270415T060000
+DTEND:20270415T061500
+SUMMARY:23 days left. Coffee first\, world domination second.
+DESCRIPTION:23 days left. Coffee first\, world domination second.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270415-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270415T183000
+DTEND:20270415T184500
+SUMMARY:23 days to go. The inbox can wait. You've done enough today.
+DESCRIPTION:23 days to go. The inbox can wait. You've done enough toda
+ y.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270416-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270416T060000
+DTEND:20270416T061500
+SUMMARY:Good morning! Only 22 sunrises left in this internship. Make t
+ his one count.
+DESCRIPTION:Good morning! Only 22 sunrises left in this internship. Ma
+ ke this one count.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270416-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270416T183000
+DTEND:20270416T184500
+SUMMARY:Good evening\, legend. 22 days left. Tomorrow needs you well r
+ ested.
+DESCRIPTION:Good evening\, legend. 22 days left. Tomorrow needs you we
+ ll rested.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270417-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270417T060000
+DTEND:20270417T061500
+SUMMARY:Another day\, another chance to be the best thing that happene
+ d to that office. 21 to go.
+DESCRIPTION:Another day\, another chance to be the best thing that hap
+ pened to that office. 21 to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270417-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270417T183000
+DTEND:20270417T184500
+SUMMARY:Another page turned. 21 days to go. Hot take: you're doing gre
+ at.
+DESCRIPTION:Another page turned. 21 days to go. Hot take: you're doing
+  great.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270418-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270418T060000
+DTEND:20270418T061500
+SUMMARY:Wake up\, Asnath. The sun is up and so is your potential. 20 d
+ ays left.
+DESCRIPTION:Wake up\, Asnath. The sun is up and so is your potential. 
+ 20 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270418-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270418T183000
+DTEND:20270418T184500
+SUMMARY:Kick off the work shoes. 20 days left\, Asnath.
+DESCRIPTION:Kick off the work shoes. 20 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270419-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270419T060000
+DTEND:20270419T061500
+SUMMARY:19 days to go. Today's mission: be brilliant\, be kind\, be on
+  time-ish.
+DESCRIPTION:19 days to go. Today's mission: be brilliant\, be kind\, b
+ e on time-ish.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270419-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270419T183000
+DTEND:20270419T184500
+SUMMARY:19 days left. Whatever happened today\, you showed up. That's 
+ the win.
+DESCRIPTION:19 days left. Whatever happened today\, you showed up. Tha
+ t's the win.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270420-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270420T060000
+DTEND:20270420T061500
+SUMMARY:Morning\, superstar. 18 days left\, and every one of them is a
+ n opportunity.
+DESCRIPTION:Morning\, superstar. 18 days left\, and every one of them 
+ is an opportunity.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270420-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270420T183000
+DTEND:20270420T184500
+SUMMARY:Evening\, superstar. 18 days to go. Treat yourself. You deserv
+ e it.
+DESCRIPTION:Evening\, superstar. 18 days to go. Treat yourself. You de
+ serve it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270421-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270421T060000
+DTEND:20270421T061500
+SUMMARY:Long internship? Long list of wins. 17 days left. Go collect t
+ oday's.
+DESCRIPTION:Long internship? Long list of wins. 17 days left. Go colle
+ ct today's.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270421-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270421T183000
+DTEND:20270421T184500
+SUMMARY:Today's chapter is closed\, and it was a good one. 17 days lef
+ t.
+DESCRIPTION:Today's chapter is closed\, and it was a good one. 17 days
+  left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270422-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270422T060000
+DTEND:20270422T061500
+SUMMARY:Plot twist: you're better at this than you think. 16 days to g
+ o.
+DESCRIPTION:Plot twist: you're better at this than you think. 16 days 
+ to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270422-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270422T183000
+DTEND:20270422T184500
+SUMMARY:16 days to go. Be gentle with yourself tonight.
+DESCRIPTION:16 days to go. Be gentle with yourself tonight.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270423-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270423T060000
+DTEND:20270423T061500
+SUMMARY:It's a great day to be a legend. 15 days left\, Asnath.
+DESCRIPTION:It's a great day to be a legend. 15 days left\, Asnath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270423-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270423T183000
+DTEND:20270423T184500
+SUMMARY:The day is done and so is the hard part. 15 days left\, Asnath
+ .
+DESCRIPTION:The day is done and so is the hard part. 15 days left\, As
+ nath.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270424-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270424T060000
+DTEND:20270424T061500
+SUMMARY:Fuel up and glow up. 14 days left on this adventure.
+DESCRIPTION:Fuel up and glow up. 14 days left on this adventure.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270424-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270424T183000
+DTEND:20270424T184500
+SUMMARY:Sunset check: still amazing. 14 days to go.
+DESCRIPTION:Sunset check: still amazing. 14 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270425-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270425T060000
+DTEND:20270425T061500
+SUMMARY:13 days to go. Smile\, send the emails\, steal the show.
+DESCRIPTION:13 days to go. Smile\, send the emails\, steal the show.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270425-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270425T183000
+DTEND:20270425T184500
+SUMMARY:You've got 13 days left and a whole evening to enjoy. Go.
+DESCRIPTION:You've got 13 days left and a whole evening to enjoy. Go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270426-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270426T060000
+DTEND:20270426T061500
+SUMMARY:Good morning\, Asnath! The hours are long but the sunsets are 
+ longer. 12 days left.
+DESCRIPTION:Good morning\, Asnath! The hours are long but the sunsets 
+ are longer. 12 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270426-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270426T183000
+DTEND:20270426T184500
+SUMMARY:Hey Asnath\, proud of you. 12 days to go. Sleep well tonight.
+DESCRIPTION:Hey Asnath\, proud of you. 12 days to go. Sleep well tonig
+ ht.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270427-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270427T060000
+DTEND:20270427T061500
+SUMMARY:New day\, new chance to impress someone. 11 days to go.
+DESCRIPTION:New day\, new chance to impress someone. 11 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270427-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270427T183000
+DTEND:20270427T184500
+SUMMARY:11 days left. The best interns rest well. That's you.
+DESCRIPTION:11 days left. The best interns rest well. That's you.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270428-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270428T060000
+DTEND:20270428T061500
+SUMMARY:Rise\, sparkle\, intern. 10 days left.
+DESCRIPTION:Rise\, sparkle\, intern. 10 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270428-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270428T183000
+DTEND:20270428T184500
+SUMMARY:Wrap it up\, wind down\, glow on. 10 days to go.
+DESCRIPTION:Wrap it up\, wind down\, glow on. 10 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270429-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270429T060000
+DTEND:20270429T061500
+SUMMARY:Your coffee called. It says you've got this. 9 days to go.
+DESCRIPTION:Your coffee called. It says you've got this. 9 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270429-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270429T183000
+DTEND:20270429T184500
+SUMMARY:Another sunset\, another small victory. 9 days left.
+DESCRIPTION:Another sunset\, another small victory. 9 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270430-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270430T060000
+DTEND:20270430T061500
+SUMMARY:Eyes on the prize\, Asnath. 8 days left until sunset.
+DESCRIPTION:Eyes on the prize\, Asnath. 8 days left until sunset.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270430-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270430T183000
+DTEND:20270430T184500
+SUMMARY:8 days to go. Dinner\, music\, zero emails. Doctor's orders.
+DESCRIPTION:8 days to go. Dinner\, music\, zero emails. Doctor's order
+ s.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270501-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270501T060000
+DTEND:20270501T061500
+SUMMARY:7 days to go. Be the energy you want in the meeting.
+DESCRIPTION:7 days to go. Be the energy you want in the meeting.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270501-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270501T183000
+DTEND:20270501T184500
+SUMMARY:You turned a long day into a good one\, Asnath. 7 days left.
+DESCRIPTION:You turned a long day into a good one\, Asnath. 7 days lef
+ t.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270502-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270502T060000
+DTEND:20270502T061500
+SUMMARY:Today is a good day to be unstoppable. 6 days left.
+DESCRIPTION:Today is a good day to be unstoppable. 6 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270502-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270502T183000
+DTEND:20270502T184500
+SUMMARY:Day complete. Achievement unlocked. 6 days to go.
+DESCRIPTION:Day complete. Achievement unlocked. 6 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270503-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270503T060000
+DTEND:20270503T061500
+SUMMARY:Good morning! 5 days left to turn 'intern' into 'irreplaceable
+ '.
+DESCRIPTION:Good morning! 5 days left to turn 'intern' into 'irreplace
+ able'.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270503-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270503T183000
+DTEND:20270503T184500
+SUMMARY:Tonight's agenda: nothing. You've earned it. 5 days left.
+DESCRIPTION:Tonight's agenda: nothing. You've earned it. 5 days left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270504-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270504T060000
+DTEND:20270504T061500
+SUMMARY:The early intern gets the good parking spot. 4 days to go.
+DESCRIPTION:The early intern gets the good parking spot. 4 days to go.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270504-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270504T183000
+DTEND:20270504T184500
+SUMMARY:4 days to go. Tomorrow's a new chance to be great. Tonight\, r
+ est.
+DESCRIPTION:4 days to go. Tomorrow's a new chance to be great. Tonight
+ \, rest.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270505-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270505T060000
+DTEND:20270505T061500
+SUMMARY:Hey Asnath\, you're doing better than you think. 3 days left.
+DESCRIPTION:Hey Asnath\, you're doing better than you think. 3 days le
+ ft.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270505-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270505T183000
+DTEND:20270505T184500
+SUMMARY:Stars are coming out\, Asnath. So are your best days. 3 days l
+ eft.
+DESCRIPTION:Stars are coming out\, Asnath. So are your best days. 3 da
+ ys left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270506-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270506T060000
+DTEND:20270506T061500
+SUMMARY:2 days to go. Make Future You proud before lunch.
+DESCRIPTION:2 days to go. Make Future You proud before lunch.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270506-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270506T183000
+DTEND:20270506T184500
+SUMMARY:2 days left. One more sunset down. You make it look easy.
+DESCRIPTION:2 days left. One more sunset down. You make it look easy.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270507-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270507T060000
+DTEND:20270507T061500
+SUMMARY:Another sunrise\, another step closer to greatness. 1 day left
+ .
+DESCRIPTION:Another sunrise\, another step closer to greatness. 1 day 
+ left.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270507-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270507T183000
+DTEND:20270507T184500
+SUMMARY:One day down\, 1 day to go. Sucks to be you. Kidding. Go rest.
+DESCRIPTION:One day down\, 1 day to go. Sucks to be you. Kidding. Go r
+ est.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270508-am@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270508T060000
+DTEND:20270508T061500
+SUMMARY:Final day\, Asnath. The sun sets on this chapter today. Make i
+ t a good one.
+DESCRIPTION:Final day\, Asnath. The sun sets on this chapter today. Ma
+ ke it a good one.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good morning\, Asnath
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd-20270508-pm@sunset-countdown
+DTSTAMP:20261117T211248Z
+DTSTART:20270508T183000
+DTEND:20270508T184500
+SUMMARY:You did it\, Asnath. Every single day. Go celebrate. You earne
+ d it.
+DESCRIPTION:You did it\, Asnath. Every single day. Go celebrate. You e
+ arned it.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:Good evening\, Asnath
+END:VALARM
+END:VEVENT
+END:VCALENDAR
