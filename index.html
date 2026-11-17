@@ -151,6 +151,16 @@
   .link:hover{opacity:1}
   .btn:disabled{opacity:.6;cursor:default}
 
+  /* welcome popup */
+  .dim{position:fixed;inset:0;z-index:9;background:rgba(8,4,16,.6);opacity:0;visibility:hidden;transition:opacity .45s,visibility 0s .45s}
+  .dim.show{opacity:1;visibility:visible;transition:opacity .45s}
+  .sheet.intro{top:50%;bottom:auto;width:min(calc(100vw - 40px),380px);padding:28px 24px 14px;text-align:center;transform:translate(-50%,-40%) scale(.94)}
+  .sheet.intro.open{transform:translate(-50%,-50%)}
+  .intro .ic2{width:58px;height:58px;margin:0 auto 14px;border-radius:19px;background:linear-gradient(135deg,#ffd28a,#ff8f7a);display:grid;place-items:center;color:#261d2d;box-shadow:0 10px 26px -6px rgba(255,140,100,.75)}
+  .intro .ic2 svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .intro .row{flex-direction:column;gap:2px}
+  .intro .btn.quiet{min-height:46px}
+
   /* add to home screen */
   .hbtns{display:flex;gap:2px}
   .bell[hidden]{display:none}
@@ -214,6 +224,14 @@
   <button class="link" id="cal">Use Calendar instead</button>
 </div>
 
+<div class="dim" id="dim"></div>
+<div class="sheet intro" id="intro" role="dialog" aria-labelledby="inT" aria-describedby="inP">
+  <div class="ic2"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/></svg></div>
+  <h2 id="inT">Get your daily boost</h2>
+  <p id="inP">Add this page to your Home Screen, then switch on a little motivation note every morning and evening.</p>
+  <div class="row"><button class="btn main" id="inYes">Show me how</button><button class="btn quiet" id="inNo">Maybe later</button></div>
+</div>
+
 <div class="sheet" id="a2" role="dialog" aria-labelledby="a2T">
   <h2 id="a2T">Add to Home Screen</h2>
   <ol class="steps" id="steps"></ol>
@@ -232,7 +250,7 @@
 const DEFAULTS = { name: "Asnath", start: "2026-11-09", months: 6 };
 /* After changing these, also edit CONFIG in build.js and run: node build.js
    Optional link overrides: ?name=..&start=YYYY-MM-DD&months=6
-   Testing only: ?now=YYYY-MM-DD · ?preview=finale · ?sheet · ?nosheet · ?slide=N */
+   Testing only: ?now=YYYY-MM-DD · ?preview=finale · ?sheet · ?intro · ?nosheet · ?slide=N */
 /* =============================================================================== */
 
 const $ = id => document.getElementById(id);
@@ -360,10 +378,10 @@ function nextSlide(x,yy){
   nextQuote(false);
 }
 let auto;
-function startAuto(){ clearInterval(auto); auto=setInterval(()=>{ if(!document.hidden && !sheet.classList.contains("open") && !$("a2").classList.contains("open") && !finaleShown) nextSlide(); },9000); }
+function startAuto(){ clearInterval(auto); auto=setInterval(()=>{ if(!document.hidden && !sheet.classList.contains("open") && !$("a2").classList.contains("open") && !$("intro").classList.contains("open") && !finaleShown) nextSlide(); },9000); }
 // tap the picture: light ripples out from your finger and the next sunset opens from that spot
 document.addEventListener("pointerdown",e=>{
-  if(!ready || e.target.closest("button,.note,.sheet,.finale")) return;
+  if(!ready || e.target.closest("button,.note,.sheet,.finale,.dim")) return;
   if(e.pointerType!=="mouse" && e.target.closest("[data-tip-tap]")) return;   // touch: tapping these shows their tip instead
   for(const c of ["","b"]){ const r=document.createElement("div"); r.className="rp "+c; r.style.left=e.clientX+"px"; r.style.top=e.clientY+"px"; document.body.appendChild(r); setTimeout(()=>r.remove(),1500); }
   nextSlide(e.clientX,e.clientY); startAuto();
@@ -504,6 +522,23 @@ $("bell").onclick=()=>{
 };
 addEventListener("keydown",e=>{ if(e.key==="Escape" && sheet.classList.contains("open")) closeSheet(); });
 if(!window.Extras) $("bell").style.display="none";
+
+/* ---------- welcome popup: add to Home Screen so the daily notes can work ---------- */
+const intro=$("intro"), dim=$("dim"); let introT;
+function openIntro(){ hideTip(); clearTimeout(introT); intro.classList.add("open"); dim.classList.add("show"); document.body.classList.add("sheet-open"); setTimeout(()=>$("inYes").focus({preventScroll:true}),400); }
+function closeIntro(remember){
+  clearTimeout(introT); intro.classList.remove("open"); dim.classList.remove("show");
+  if(!sheet.classList.contains("open") && !a2.classList.contains("open")) document.body.classList.remove("sheet-open");
+  if(remember) store.set("cd-intro",String(Date.now()));
+}
+$("inYes").onclick=()=>{ closeIntro(true); $("add").click(); };          // Android: real install prompt. iPhone: the step-by-step guide.
+$("inNo").onclick=()=>{
+  closeIntro(true); $("add").focus({preventScroll:true});
+  if(!store.get("cd-tip-add")){ store.set("cd-tip-add","1"); setTimeout(()=>showTip($("add"),4600,["Add me anytime","Add to Home Screen lives up here."]),700); }
+};
+addEventListener("keydown",e=>{ if(e.key==="Escape" && intro.classList.contains("open")) $("inNo").click(); });
+const needsInstall=!standalone && (isIOS||isAndroid);                     // phones: notifications work from the Home Screen app
+const introDue=()=>Date.now()-(+store.get("cd-intro")||0) > 12*36e5;     // asks on each visit, but not more than twice a day
 if("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(()=>{});
 
 /* ---------- fireworks (finale only) ---------- */
@@ -544,7 +579,7 @@ function frame(){
   else { running=false; ctx.clearRect(0,0,W,H); }
 }
 function finale(){
-  finaleShown=true; closeSheet();
+  finaleShown=true; closeSheet(); closeIntro(false);
   $("fP").textContent=`${cfg.name}, the sun has set on this chapter. Go celebrate.`;
   $("finale").classList.add("show");
   let n=0; clearInterval(finaleTimer);
@@ -561,10 +596,13 @@ requestAnimationFrame(()=>requestAnimationFrame(()=>{
   setTimeout(()=>animateSun(lastFrac),500);
 }));
 if(notifOn()) markOn();
-if(window.Extras && !q.has("nosheet") && (q.has("sheet") || !store.get("cd-notif"))) sheetT=setTimeout(openSheet,3600);
+if(window.Extras && !q.has("nosheet")){
+  if(q.has("intro") || (needsInstall && !notifOn() && introDue())) introT=setTimeout(openIntro,2800);          // phones: invite her to add the page to the Home Screen
+  else if(q.has("sheet") || (!needsInstall && !store.get("cd-notif"))) sheetT=setTimeout(openSheet,3600);    // installed app or desktop: ask about notifications
+}
 if(q.get("preview")==="finale") setTimeout(finale,1800);
 // one-time hint about tapping the sky (only when the notes sheet isn't in the way)
-if(!store.get("cd-tip-tap")) setTimeout(()=>{ if(!sheet.classList.contains("open") && !finaleShown){ store.set("cd-tip-tap","1"); showTip($("note"),4600,["Tap anywhere","to open the next sunset."]); } },7500);
+if(!store.get("cd-tip-tap")) setTimeout(()=>{ if(!sheet.classList.contains("open") && !intro.classList.contains("open") && !a2.classList.contains("open") && !finaleShown){ store.set("cd-tip-tap","1"); showTip($("note"),4600,["Tap anywhere","to open the next sunset."]); } },7500);
 </script>
 </body>
 </html>

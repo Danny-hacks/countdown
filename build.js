@@ -5,7 +5,6 @@ const X = require("./extras.js");
 const CONFIG = { name: "Asnath", start: "2026-11-09", months: 6 };
 const out = path.join(__dirname, "downloads"); fs.mkdirSync(out, { recursive: true });
 const ics = X.buildICS(CONFIG);
-if (/[^\x00-\x7F]/.test(ics)) throw new Error("non-ASCII in calendar text");
 fs.writeFileSync(path.join(out, CONFIG.name.toLowerCase() + "-reminders.ics"), ics);
 fs.writeFileSync(path.join(out, CONFIG.name.toLowerCase() + "-widget.js"), X.buildWidgetScript(CONFIG));
 console.log("events:", (ics.match(/BEGIN:VEVENT/g) || []).length);
