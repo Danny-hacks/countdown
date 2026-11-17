@@ -193,6 +193,24 @@
     return L.join("\r\n") + "\r\n";
   }
 
+  /* The line for a real push notification sent at "now". tz = hours ahead of UTC for her
+     timezone (Mauritius is UTC+4, no daylight saving). slot = "am" | "pm".
+     Matches the calendar captions, so both routes say the same thing on the same day. */
+  function pushMessage(cfg, slot, nowMs, tz) {
+    tz = (tz == null ? 4 : tz);
+    const [y, m, d] = cfg.start.split("-").map(Number);
+    const startL = Date.UTC(y, m - 1, d);                          // local midnight on her clock
+    const endL = Date.UTC(y, m - 1 + Number(cfg.months), d);
+    const nowL = nowMs + tz * 3600e3;
+    const i = Math.round((Math.floor(nowL / DAY) * DAY - startL) / DAY);
+    const left = Math.floor((endL - nowL) / DAY);
+    if (i < 0 || left < 0) return null;                            // before the start or after the end
+    const am = slot === "am";
+    const arr = am ? MORNING : EVENING;
+    const text = fill(left === 0 ? (am ? FINAL_AM : FINAL_PM) : arr[(i + (am ? 0 : 7)) % arr.length], { name: cfg.name, d: left });
+    return { title: (am ? "Good morning, " : "Good evening, ") + cfg.name, body: text, left: left };
+  }
+
   /* Home Screen widget for the free "Scriptable" iPhone app. */
   function buildWidgetScript(cfg) {
     return [
@@ -250,7 +268,7 @@
     ].join("\n");
   }
 
-  const api = { QUOTES, MORNING, EVENING, fill, buildICS, buildWidgetScript };
+  const api = { QUOTES, MORNING, EVENING, fill, buildICS, buildWidgetScript, pushMessage };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.Extras = api;
 })(typeof window !== "undefined" ? window : globalThis);

@@ -58,7 +58,7 @@
   main{position:fixed;z-index:4;inset:0;isolation:isolate;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
     padding:calc(env(safe-area-inset-top) + 56px) 24px calc(env(safe-area-inset-bottom) + 40px);pointer-events:none}
   main>*{pointer-events:none}
-  main>button{pointer-events:auto}
+  main>button,main>.note{pointer-events:auto}
   main::before{content:"";position:absolute;z-index:-1;width:min(110vw,620px);aspect-ratio:1;left:50%;top:50%;transform:translate(-50%,-52%);
     background:radial-gradient(circle,rgba(255,176,110,.26),rgba(255,176,110,0) 62%);filter:blur(24px);animation:breathe 7s ease-in-out infinite}
   @keyframes breathe{50%{transform:translate(-50%,-52%) scale(1.14);opacity:.7}}
@@ -89,14 +89,19 @@
   .hms .reel .d{min-width:.6em}
 
   /* the quiet line: words rise in one by one */
-  .note{position:relative;margin-top:26px;width:min(92vw,370px);min-height:5.6em;display:flex;align-items:center;justify-content:center;
-    font-size:clamp(1.3rem,5.4vw,1.7rem);font-weight:500;line-height:1.28;letter-spacing:-.005em;color:var(--ink);text-wrap:balance;
-    text-shadow:0 2px 18px rgba(0,0,0,.85),0 0 4px rgba(0,0,0,.45);padding:6px 2px;user-select:none}
+  .note{position:relative;margin-top:26px;width:min(92vw,370px);min-height:5.6em;display:grid;align-content:center;text-align:center;cursor:pointer;
+    font-size:clamp(1.3rem,5.4vw,1.7rem);font-weight:500;line-height:1.28;letter-spacing:-.005em;color:var(--ink);
+    text-shadow:0 2px 18px rgba(0,0,0,.85),0 0 4px rgba(0,0,0,.45);padding:6px 2px;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
   .note::before{content:"";width:38px;height:3px;border-radius:3px;background:linear-gradient(90deg,#ffd28a,#ff8f7a);position:absolute;top:-12px;left:50%;transform:translateX(-50%);box-shadow:0 0 12px rgba(255,170,110,.8)}
-  .note .w{display:inline-block;opacity:0;filter:blur(6px);transform:translateY(8px);animation:wi .9s var(--out) forwards;animation-delay:calc(var(--i)*60ms)}
-  @keyframes wi{to{opacity:1;filter:none;transform:none}}
-  .note.out .w{animation:wo .35s forwards}
-  @keyframes wo{to{opacity:0;filter:blur(4px);transform:translateY(-6px)}}
+  #noteTxt{display:block;overflow-wrap:break-word}
+  /* words only change opacity (never size or position), so the line breaks are the same from the first frame to the last */
+  .note .w{opacity:0;animation:wi .7s ease forwards;animation-delay:calc(var(--i)*55ms)}
+  @keyframes wi{to{opacity:1}}
+  #noteTxt.in{animation:qin .9s var(--out)}
+  @keyframes qin{from{transform:translateY(10px)}}
+  .note.out #noteTxt{animation:qout .35s ease forwards}
+  .note.out .w{animation:none;opacity:1}
+  @keyframes qout{to{opacity:0;transform:translateY(-6px)}}
   body.sheet-open .note{opacity:0}
 
   @media(max-height:700px){.arc{width:min(54vw,225px)}.note{margin-top:16px}}
@@ -142,6 +147,23 @@
   .tip.below .ar{top:-6px;border-right:0;border-bottom:0}
   .tip.above .ar{bottom:-6px;border-left:0;border-top:0}
 
+  .link{display:block;margin:6px 0 2px;min-height:44px;width:100%;font-size:.92rem;text-decoration:underline;text-underline-offset:3px;opacity:.72}
+  .link:hover{opacity:1}
+  .btn:disabled{opacity:.6;cursor:default}
+
+  /* add to home screen */
+  .hbtns{display:flex;gap:2px}
+  .bell[hidden]{display:none}
+  .sheet.ios{bottom:calc(env(safe-area-inset-bottom) + 66px)}
+  .steps{list-style:none;display:grid;gap:12px;margin:12px 0 18px}
+  .steps li{display:flex;gap:12px;align-items:flex-start;font-size:1rem;line-height:1.4}
+  .steps li>span{flex:none;width:26px;height:26px;border-radius:50%;background:#261d2d;color:#fbf6f0;font-size:.85rem;font-weight:600;display:grid;place-items:center;margin-top:1px}
+  .steps svg{width:1.15em;height:1.15em;vertical-align:-.22em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .point{position:fixed;z-index:11;left:50%;bottom:calc(env(safe-area-inset-bottom) + 4px);width:44px;height:44px;margin-left:-22px;display:grid;place-items:center;color:#fff;opacity:0;pointer-events:none;transition:opacity .4s}
+  .point.show{opacity:1;animation:pt 1.2s ease-in-out infinite}
+  @keyframes pt{50%{transform:translateY(8px)}}
+  .point svg{width:32px;height:32px;stroke:currentColor;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 8px rgba(0,0,0,.7))}
+
   @media(prefers-reduced-motion:reduce){
     .slide img,main::before,.arc .halo,.hms .sep,.rp{animation:none!important}
     .tip,.tip.show{transform:none!important}
@@ -158,9 +180,14 @@
 
 <header>
   <p class="name a" style="--n:0" id="who">Asnath</p>
+  <div class="hbtns">
+  <button class="bell" id="add" hidden data-tip="add" aria-label="Add to Home Screen">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2.5"/><path d="M8 12h8M12 8v8"/></svg>
+  </button>
   <button class="bell" id="bell" data-tip="bell" aria-label="Daily motivation notes">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/></svg>
   </button>
+  </div>
 </header>
 
 <main>
@@ -177,14 +204,22 @@
   <div class="days reel a" style="--n:2" id="days" role="text" aria-label="days to go" data-tip="days" data-tip-tap></div>
   <p class="unit a" style="--n:3">days to go</p>
   <div class="hms fast a" style="--n:4" id="hms" aria-hidden="true" data-tip="clock" data-tip-tap></div>
-  <button class="note a" style="--n:5" id="note" data-tip="note" aria-label="Show another line"><span id="noteTxt"></span></button>
+  <div class="note a" style="--n:5" id="note" role="button" tabindex="0" data-tip="note" aria-label="Show another line"><span id="noteTxt"></span></div>
 </main>
 
 <div class="sheet" id="sheet" role="dialog" aria-labelledby="shT" aria-describedby="shP">
   <h2 id="shT">Daily motivation?</h2>
   <p id="shP">A short note every morning and evening.</p>
   <div class="row"><button class="btn main" id="yes">Turn on</button><button class="btn quiet" id="no">Not now</button></div>
+  <button class="link" id="cal">Use Calendar instead</button>
 </div>
+
+<div class="sheet" id="a2" role="dialog" aria-labelledby="a2T">
+  <h2 id="a2T">Add to Home Screen</h2>
+  <ol class="steps" id="steps"></ol>
+  <div class="row"><button class="btn main" id="a2ok">Got it</button></div>
+</div>
+<div class="point" id="point" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v15m7-7-7 7-7-7"/></svg></div>
 
 <div class="finale" id="finale" role="alertdialog" aria-labelledby="fT">
   <div><h2 id="fT">You did it.</h2><p id="fP"></p><button class="btn" id="fClose">Keep celebrating</button></div>
@@ -280,7 +315,8 @@ const lastQ=parseInt(store.get("cd-lastq"),10); if(Number.isInteger(lastQ)) qi=l
 const fillQ=t=>(window.Extras&&Extras.fill)?Extras.fill(t,{name:cfg.name,d:curDays}):t;
 function renderQuote(t){
   t=fillQ(t);
-  $("noteTxt").innerHTML=t.split(" ").map((w,i)=>`<span class="w" style="--i:${i}">${w}</span>`).join(" ");
+  const n=$("noteTxt"); n.className=""; void n.offsetWidth; n.className="in";
+  n.innerHTML=t.split(" ").map((w,i)=>`<span class="w" style="--i:${i}">${w}</span>`).join(" ");
 }
 let qTimer;
 function nextQuote(first){
@@ -292,6 +328,7 @@ function nextQuote(first){
   qTimer=setTimeout(()=>{ renderQuote(Q[n]); el.classList.remove("out"); },380);
 }
 $("note").onclick=e=>{ e.stopPropagation(); nextQuote(false); };
+$("note").addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); nextQuote(false); } });
 
 /* ---------- the sunset slideshow ---------- */
 const SLIDES=[
@@ -323,10 +360,10 @@ function nextSlide(x,yy){
   nextQuote(false);
 }
 let auto;
-function startAuto(){ clearInterval(auto); auto=setInterval(()=>{ if(!document.hidden && !sheet.classList.contains("open") && !finaleShown) nextSlide(); },9000); }
+function startAuto(){ clearInterval(auto); auto=setInterval(()=>{ if(!document.hidden && !sheet.classList.contains("open") && !$("a2").classList.contains("open") && !finaleShown) nextSlide(); },9000); }
 // tap the picture: light ripples out from your finger and the next sunset opens from that spot
 document.addEventListener("pointerdown",e=>{
-  if(!ready || e.target.closest("button,.sheet,.finale")) return;
+  if(!ready || e.target.closest("button,.note,.sheet,.finale")) return;
   if(e.pointerType!=="mouse" && e.target.closest("[data-tip-tap]")) return;   // touch: tapping these shows their tip instead
   for(const c of ["","b"]){ const r=document.createElement("div"); r.className="rp "+c; r.style.left=e.clientX+"px"; r.style.top=e.clientY+"px"; document.body.appendChild(r); setTimeout(()=>r.remove(),1500); }
   nextSlide(e.clientX,e.clientY); startAuto();
@@ -334,14 +371,47 @@ document.addEventListener("pointerdown",e=>{
 });
 setTimeout(()=>SLIDES.forEach((s,i)=>{ if(i!==si){ const im=new Image(); im.src=s.f; } }),2500);
 
+/* ---------- add to home screen ---------- */
+const UA=navigator.userAgent;
+const isIOS=/iPhone|iPad|iPod/.test(UA)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+const isSafariIOS=isIOS && !/CriOS|FxiOS|EdgiOS|OPiOS/.test(UA);
+const isAndroid=/Android/.test(UA);
+const standalone=navigator.standalone===true||matchMedia("(display-mode: standalone)").matches;
+const SHARE='<svg viewBox="0 0 24 24" aria-label="Share"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></svg>';
+let deferredInstall=null;
+function showAdd(){ if(!standalone) $("add").hidden=false; }
+if((isIOS||isAndroid) && !standalone) showAdd();
+addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); deferredInstall=e; showAdd(); });
+addEventListener("appinstalled",()=>{ $("add").hidden=true; closeA2(); });
+const a2=$("a2");
+function openA2(){
+  hideTip(); if(sheet.classList.contains("open")) closeSheet();
+  let steps;
+  if(isSafariIOS) steps=[`Tap the <b>Share</b> button ${SHARE} in Safari's toolbar below.`,"Scroll down and tap <b>Add to Home Screen</b>.","Tap <b>Add</b>. Done!"];
+  else if(isIOS) steps=[`Tap the <b>Share</b> button ${SHARE} next to the address bar. (Or open this page in Safari.)`,"Tap <b>Add to Home Screen</b>.","Tap <b>Add</b>. Done!"];
+  else if(isAndroid) steps=["Tap the <b>menu</b> (three dots) in your browser.","Tap <b>Add to Home screen</b> or <b>Install app</b>.","Tap <b>Add</b>. Done!"];
+  else steps=["Open this page on your phone.","Use your browser's <b>Add to Home Screen</b> option.","Done!"];
+  $("steps").innerHTML=steps.map((s,i)=>`<li><span>${i+1}</span><p>${s}</p></li>`).join("");
+  a2.classList.toggle("ios",isSafariIOS); $("point").classList.toggle("show",isSafariIOS);
+  a2.classList.add("open"); document.body.classList.add("sheet-open"); setTimeout(()=>$("a2ok").focus({preventScroll:true}),350);
+}
+function closeA2(){ a2.classList.remove("open"); $("point").classList.remove("show"); if(!sheet.classList.contains("open")) document.body.classList.remove("sheet-open"); }
+$("a2ok").onclick=()=>{ closeA2(); $("add").focus({preventScroll:true}); };
+$("add").onclick=async()=>{
+  if(deferredInstall){ const d=deferredInstall; deferredInstall=null; try{ d.prompt(); await d.userChoice; }catch(_){} return; }   // Android / desktop Chrome: a real one-tap install
+  a2.classList.contains("open") ? closeA2() : openA2();
+};
+addEventListener("keydown",e=>{ if(e.key==="Escape" && a2.classList.contains("open")) closeA2(); });
+
 /* ---------- tooltips ---------- */
 const tip=$("tip"); let tipEl=null, tipTimer;
 const endLabel=endD.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"});
 const TIPS={
-  bell:()=> store.get("cd-notif")==="yes" ? ["Daily notes are on","A line at 6 AM and 6:30 PM. Tap for details."] : ["Daily motivation","Get a little note at 6 AM and 6:30 PM."],
+  bell:()=> notifOn() ? ["Daily notes are on","A line at "+SEND_TIMES+". Tap for details."] : ["Daily motivation","Get a little note at "+SEND_TIMES+"."],
   arc:()=>["Your sun",(Math.round(lastFrac*1000)/10)+"% of the way to sunset."],
   days:()=>["Until sunset",endLabel],
   clock:()=>["Live","Hours, minutes and seconds. All of them ticking."],
+  add:()=>["Add to Home Screen",isIOS?"Open it like an app. A couple of quick taps.":"Open it like an app, right from your Home Screen."],
   note:()=>["Need another?","Tap for a new line. Tap the sky for the next sunset."]
 };
 function showTip(el,ms,custom){
@@ -372,30 +442,69 @@ document.addEventListener("pointerdown",e=>{
 addEventListener("keydown",e=>{ if(e.key==="Escape") hideTip(); });
 addEventListener("scroll",hideTip,{passive:true}); addEventListener("resize",hideTip);
 
-/* ---------- ask once about daily notes ---------- */
+/* ---------- ask once about daily notes: real push notifications, Calendar as the backup ---------- */
+const SEND_TIMES="6:00 AM and 6:30 PM";
 const sheet=$("sheet"); let sheetT;
-function openSheet(){ hideTip(); clearTimeout(sheetT); sheet.classList.add("open"); document.body.classList.add("sheet-open"); setTimeout(()=>$("yes").focus({preventScroll:true}),350); }
+function openSheet(){ hideTip(); if(a2.classList.contains("open")) closeA2(); clearTimeout(sheetT); sheet.classList.add("open"); document.body.classList.add("sheet-open"); setTimeout(()=>$("yes").focus({preventScroll:true}),350); }
 function closeSheet(){ sheet.classList.remove("open"); document.body.classList.remove("sheet-open"); $("bell").focus({preventScroll:true}); }
+const notifOn=()=>["yes","push"].includes(store.get("cd-notif"));
 function markOn(){ $("bell").classList.add("on"); $("bell").setAttribute("aria-label","Daily notes are on"); }
+function setSheet(title,body,btn,mode,showCal){
+  $("shT").textContent=title; $("shP").textContent=body;
+  const y=$("yes"); y.textContent=btn; y.dataset.mode=mode; y.disabled=false;
+  $("no").style.display=mode==="ask"?"":"none"; $("cal").style.display=showCal?"":"none";
+}
+const resetAsk=()=>setSheet("Daily motivation?","A short note every morning and evening.","Turn on","ask",true);
+resetAsk();
+
+const pushSupported="serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+const b64u=s=>{ const r=atob((s+"=".repeat((4-s.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/")); return Uint8Array.from([...r].map(c=>c.charCodeAt(0))); };
+async function enablePush(){
+  const fail=c=>Object.assign(new Error(c),{code:c});
+  if(isIOS && !standalone) throw fail("install");                                   // iPhones only allow this from the Home Screen app
+  if(!pushSupported || !(location.protocol==="https:"||location.hostname==="localhost")) throw fail("unsupported");
+  if(await Notification.requestPermission()!=="granted") throw fail("denied");
+  let key; try{ const r=await fetch("/api/vapid"); if(!r.ok) throw 0; key=(await r.json()).publicKey; }catch(_){ throw fail("server"); }
+  const reg=await navigator.serviceWorker.ready;
+  const sub=(await reg.pushManager.getSubscription()) || await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(key)});
+  const r=await fetch("/api/subscribe",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(sub)});
+  if(!r.ok) throw fail("server");
+}
+function downloadCalendar(){
+  const blob=new Blob([X.buildICS(cfg)],{type:"text/calendar;charset=utf-8"}), a=document.createElement("a");
+  a.href=URL.createObjectURL(blob); a.download=cfg.name.toLowerCase()+"-daily-notes.ics"; document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },4000);
+}
+$("cal").onclick=()=>{ downloadCalendar(); store.set("cd-notif","yes"); markOn(); setSheet("One last step","Tap Add All in Calendar and you're set.","Done","done",false); };
+$("yes").onclick=async()=>{
+  const b=$("yes"), mode=b.dataset.mode;
+  if(mode==="done"){ closeSheet(); return; }
+  if(mode==="install"){ closeSheet(); openA2(); return; }
+  if(mode==="calendar"){ $("cal").onclick(); return; }
+  b.disabled=true; b.textContent="One moment...";
+  try{
+    await enablePush(); store.set("cd-notif","push"); markOn();
+    setSheet("You're set","A note at "+SEND_TIMES+", Mauritius time. A hello is on its way now.","Done","done",false);
+  }catch(e){
+    const c=e.code||"server";
+    if(c==="install") setSheet("One quick thing","On iPhone, notifications work from the Home Screen app. Add it first, open it from your Home Screen, then tap the bell.","Add to Home Screen","install",true);
+    else if(c==="denied") setSheet("Notifications are blocked","You can allow them in your phone's Settings for this site, or use Calendar instead.","Use Calendar","calendar",false);
+    else if(c==="unsupported") setSheet("Not available here","This browser can't send notifications. Calendar works anywhere.","Use Calendar","calendar",false);
+    else setSheet("Couldn't switch on","Something went wrong. Calendar works as a backup.","Use Calendar","calendar",false);
+  }
+};
 $("no").onclick=()=>{
   const first=!store.get("cd-notif"); if(first) store.set("cd-notif","no"); closeSheet();
   if(first && !store.get("cd-tip-bell")){ store.set("cd-tip-bell","1"); setTimeout(()=>showTip($("bell"),4600,["Change your mind?","Daily notes live here whenever you want them."]),900); }
 };
-$("yes").onclick=()=>{
-  if($("yes").dataset.done){ closeSheet(); return; }
-  const blob=new Blob([X.buildICS(cfg)],{type:"text/calendar;charset=utf-8"}), a=document.createElement("a");
-  a.href=URL.createObjectURL(blob); a.download=cfg.name.toLowerCase()+"-daily-notes.ics"; document.body.appendChild(a); a.click();
-  setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },4000);
-  store.set("cd-notif","yes"); markOn();
-  $("shT").textContent="One last step"; $("shP").textContent="Tap Add All in Calendar and you're set.";
-  $("yes").textContent="Done"; $("yes").dataset.done=1; $("no").style.display="none";
-};
 $("bell").onclick=()=>{
-  if(store.get("cd-notif")==="yes" && !$("yes").dataset.done){ $("shT").textContent="Daily motivation is on"; $("shP").textContent="You'll get a note every morning and evening."; $("yes").textContent="Nice"; $("yes").dataset.done=1; $("no").style.display="none"; }
-  sheet.classList.contains("open") ? closeSheet() : openSheet();
+  if(sheet.classList.contains("open")){ closeSheet(); return; }
+  if(notifOn()) setSheet("Daily motivation is on","A note at "+SEND_TIMES+", Mauritius time.","Nice","done",false); else resetAsk();
+  openSheet();
 };
 addEventListener("keydown",e=>{ if(e.key==="Escape" && sheet.classList.contains("open")) closeSheet(); });
 if(!window.Extras) $("bell").style.display="none";
+if("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(()=>{});
 
 /* ---------- fireworks (finale only) ---------- */
 const cv=$("fx"), ctx=cv.getContext("2d");
@@ -451,7 +560,7 @@ requestAnimationFrame(()=>requestAnimationFrame(()=>{
   document.body.classList.add("ready"); ready=true; tick();
   setTimeout(()=>animateSun(lastFrac),500);
 }));
-if(store.get("cd-notif")==="yes") markOn();
+if(notifOn()) markOn();
 if(window.Extras && !q.has("nosheet") && (q.has("sheet") || !store.get("cd-notif"))) sheetT=setTimeout(openSheet,3600);
 if(q.get("preview")==="finale") setTimeout(finale,1800);
 // one-time hint about tapping the sky (only when the notes sheet isn't in the way)
