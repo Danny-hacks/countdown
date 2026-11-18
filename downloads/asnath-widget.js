@@ -64,7 +64,7 @@ g.colors = [new Color('#0b0908'), new Color('#33194a'), new Color('#c2492b'), ne
 g.locations = [0, 0.45, 0.82, 1];
 w.backgroundGradient = g;
 if (fam.startsWith('accessory')) {
-  const t = w.addText(days + ' days to go');
+  const t = w.addText(days + ' days until freedom');
   t.font = Font.boldSystemFont(14);
 } else {
   w.setPadding(16, 16, 16, 16);
@@ -76,7 +76,7 @@ if (fam.startsWith('accessory')) {
   num.font = Font.regularSystemFont(fam === 'small' ? 56 : 64);
   num.textColor = Color.white();
   num.minimumScaleFactor = 0.5;
-  const lbl = w.addText('DAYS TO GO  -  ' + hours + 'H');
+  const lbl = w.addText('DAYS UNTIL FREEDOM  -  ' + hours + 'H');
   lbl.font = Font.mediumMonospacedSystemFont(9);
   lbl.textColor = new Color('#ffd9b0');
   if (fam !== 'small') {
